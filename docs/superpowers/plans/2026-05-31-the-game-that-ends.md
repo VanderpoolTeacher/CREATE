@@ -235,6 +235,34 @@ git push
 
 ---
 
+### Task 7: Interactive GitHub Pages hub — content sections
+
+A polished single-page static site (no build step) presenting the framework, rubrics, weave-in strategies, and optional sample units interactively. Files at repo root so GitHub Pages can serve from `main`.
+
+**Files:**
+- Create: `index.html`, `assets/styles.css`, `assets/app.js`
+- Reference (source content): `toolkit/durable-skills-framework.md`, `toolkit/rubrics.md`, `toolkit/weave-in-strategies.md`, `curriculum/sample-units.md`
+
+**Acceptance criteria:** Hero with the "school game" thesis + title; sticky nav (Framework / Rubrics / Weave-In / Units / Talk); six skills as expandable cards (definition + "looks like"); competency rubrics as interactive tables; weave-in strategies as a filterable-by-skill explorer with the decomposition framework featured; responsive/mobile-friendly; no external build step; self-contained except CDN libs. Content must match the Markdown sources exactly (cluster names Title-Case). Commit.
+
+### Task 8: Interactive GitHub Pages hub — reveal.js talk deck
+
+The 28-slide presentation as a browser-presentable deck, linked from the hub.
+
+**Files:**
+- Create: `talk.html`
+- Reference: `presentation/outline.md`
+
+**Acceptance criteria:** reveal.js (CDN) deck with one slide per outline slide; "On slide" content rendered as the slide, speaker `Notes` placed in `<aside class="notes">` (visible in speaker view, `S`); `[YOUR STORY]` prompts included in the notes; arrow-key/click navigation; linked to/from `index.html`; visually consistent with the hub. Commit.
+
+### Task 9: Enable GitHub Pages, wire README, final pass
+
+**Files:** Modify `README.md`; add `.nojekyll` at root (serve raw static files, skip Jekyll processing).
+
+**Acceptance criteria:** `.nojekyll` present; README links to the live site and lists all artifacts (no "coming" placeholders); six cluster names identical across all artifacts and the site; no `[YOUR STORY]` prompts leaked into toolkit/site content (only in presentation notes / deck speaker notes); after merge to `main`, GitHub Pages enabled on `main` root via `gh`/API and the live URL verified to load. Commit and push.
+
+---
+
 ## Self-Review
 
 **Spec coverage:**

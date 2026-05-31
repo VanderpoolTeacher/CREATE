@@ -156,4 +156,8 @@ Grounded in the presenter's **firsthand experience, framed vividly** — stories
 4. **Durable-skills framework** — one page, six clusters, with the gradual-release thread (§7d-7e).
 5. **3-4 sample unit sketches** *(optional)* — for teachers with room to go beyond weave-in (§7f).
 
+**Interactive distribution:**
+
+6. **GitHub Pages interactive hub** — a polished single-page static site (no build step) that makes all of the above accessible interactively: a hero stating the "school game" thesis; the six skills as expandable cards; the competency rubrics as interactive tables; a filterable weave-in strategy explorer; and the presentation as a browser-presentable reveal.js slide deck. Mobile-friendly. The Markdown files remain the canonical source; the site is the presentation layer.
+
 Final slide tool to be chosen after the outline is approved.
