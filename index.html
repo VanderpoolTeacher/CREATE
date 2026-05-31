@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Game That Ends — A Durable-Skills Toolkit for K-12 Educators</title>
+  <meta name="description" content="A take-home toolkit for the keynote 'The Game That Ends: What Students Need After the Last Checklist.' Six durable-skill clusters, competency rubrics, and weave-in strategies for K-12 teachers." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <div class="nav__inner">
+      <a class="brand" href="#top" aria-label="The Game That Ends — home">
+        <span class="brand__check" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22"><rect x="2.5" y="2.5" width="19" height="19" rx="4"/><path d="M7 12.5l3.2 3.2L17 8.5"/></svg>
+        </span>
+        <span class="brand__text">The Game That Ends</span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#framework" data-nav>Framework</a>
+        <a href="#rubrics" data-nav>Rubrics</a>
+        <a href="#weave-in" data-nav>Weave-In</a>
+        <a href="#units" data-nav>Units</a>
+        <a class="nav__cta" href="talk.html">The Talk</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="wrap hero__inner">
+        <p class="eyebrow">A toolkit for K-12 educators</p>
+        <h1 class="hero__title">The Game<br />That Ends</h1>
+        <p class="hero__subtitle">What Students Need After the Last Checklist</p>
+        <p class="hero__thesis">
+          Students have mastered a game of checking off boxes someone else defines.
+          College and work hand them none. Here's how to teach the game that doesn't
+          end — without adding to your curriculum.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#framework">Explore the Framework</a>
+          <a class="btn btn--ghost" href="talk.html">Open the Presentation</a>
+        </div>
+
+        <ul class="hero__checklist" aria-hidden="true">
+          <li class="done"><span class="box"></span>Follow the checklist</li>
+          <li class="done"><span class="box"></span>Hit every deadline given</li>
+          <li class="done"><span class="box"></span>Answer the assigned question</li>
+          <li class="open"><span class="box"></span>Decide what the question is</li>
+          <li class="open"><span class="box"></span>Start before being told</li>
+          <li class="open"><span class="box"></span>Write your own list</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ FRAMEWORK ============ -->
+    <section class="section" id="framework">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="kicker">The Framework</p>
+          <h2>The Six Durable Skills</h2>
+          <p class="section__lede">
+            Students are remarkably good at the game we designed for them: hand them a list
+            of boxes, they check every one. College and the workforce offer no boxes — students
+            are handed an outcome and expected to figure out the rest. These six clusters name
+            what that shift actually requires. <strong>Tap a card</strong> to see what each looks
+            like in a student.
+          </p>
+        </header>
+
+        <div class="cards" id="frameworkGrid"></div>
+
+        <p class="section__note">
+          These clusters are meant to be kind to everyone in the room. Students aren't broken —
+          they mastered the game we gave them. This framework names what the next game asks for.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ RUBRICS ============ -->
+    <section class="section section--alt" id="rubrics">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="kicker">Competency Rubrics</p>
+          <h2>Score the skill, not just the content</h2>
+          <p class="section__lede" id="rubricHowTo"></p>
+        </header>
+
+        <div class="rubric">
+          <div class="rubric__controls">
+            <div class="rubric__tabs" role="tablist" aria-label="Choose a skill cluster" id="rubricTabs"></div>
+            <label class="rubric__toggle">
+              <input type="checkbox" id="targetToggle" />
+              <span>Emphasize the <strong>Proficient</strong> target</span>
+            </label>
+          </div>
+
+          <div class="rubric__tablewrap" tabindex="0" role="region" aria-label="Rubric table, scroll horizontally to see all levels">
+            <table class="rubric__table" id="rubricTable">
+              <caption class="visually-hidden" id="rubricCaption"></caption>
+            </table>
+          </div>
+          <p class="rubric__hint">Tip: click any level cell to mark it — handy when you're scoring a real piece of student work.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WEAVE-IN ============ -->
+    <section class="section" id="weave-in">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="kicker">Weave-In Strategies</p>
+          <h2>The constraint we respect</h2>
+          <p class="section__lede" id="constraintLine"></p>
+        </header>
+
+        <!-- Decomposition Framework callout -->
+        <div class="callout" id="decompFramework">
+          <div class="callout__label">The Decomposition Framework</div>
+          <h3 class="callout__title">Before You Start — Four Questions</h3>
+          <p class="callout__intro" id="decompIntro"></p>
+          <ol class="callout__list" id="decompList"></ol>
+          <p class="callout__foot">
+            This sequence is the cognitive move that separates students who get started from
+            students who wait. Use it on the assignment they are already doing.
+          </p>
+        </div>
+
+        <!-- Filterable moves -->
+        <div class="explorer">
+          <h3 class="explorer__title">Weave-In Moves</h3>
+          <p class="explorer__sub">Small tweaks to work you already assign. Filter by the skill each move builds.</p>
+          <div class="chips" id="moveChips" role="group" aria-label="Filter moves by skill cluster"></div>
+          <div class="cards cards--moves" id="movesGrid" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ UNITS ============ -->
+    <section class="section section--alt" id="units">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="kicker"><span class="tag-optional">Optional</span> Sample Units</p>
+          <h2>For when the timing is right</h2>
+          <p class="section__lede" id="unitsIntro"></p>
+        </header>
+
+        <div class="cards cards--units" id="unitsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============ TALK / CTA ============ -->
+    <section class="cta" id="cta">
+      <div class="wrap cta__inner">
+        <h2 class="cta__title">See the whole argument come together</h2>
+        <p class="cta__text">
+          The keynote walks through the school game, the shift students face, and how this
+          toolkit fits inside a classroom you can't add a single minute to.
+        </p>
+        <a class="btn btn--light" href="talk.html">Open the Presentation</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div>
+        <p class="footer__brand">The Game That Ends</p>
+        <p class="footer__tag">What Students Need After the Last Checklist</p>
+      </div>
+      <div class="footer__meta">
+        <p>The Markdown sources for this toolkit live in the repository.</p>
+        <a href="https://github.com/VanderpoolTeacher/CREATE" rel="noopener">View the project on GitHub →</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/content.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

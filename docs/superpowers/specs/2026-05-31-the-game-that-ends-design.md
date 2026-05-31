@@ -101,7 +101,7 @@ Each is a tweak to existing work, not a new unit.
 Lightweight, reusable tools the audience can use Monday morning:
 
 - A short **framework/checklist** students can apply to any ambiguous task (e.g., a decomposition prompt sequence: *What's being asked? What don't I know? What are the steps? What's first?*).
-- **Single-page rubrics for teaching *and* assessing** each of the six skill clusters — so a skill that's currently invisible becomes nameable and gradeable *inside* assignments teachers already give.
+- **Competency-based, single-page rubrics for teaching *and* assessing** each of the six skill clusters — so a skill that's currently invisible becomes nameable and gradeable *inside* assignments teachers already give. Each rubric is built from observable **"The student can…" competency statements**, scored on a 4-level continuum — **Not Yet → Approaching → Proficient → Advanced** — where *Proficient* means the competency is demonstrated and *Advanced* means the student does it unprompted / extends it. This mastery orientation reinforces the gradual-release goal (§7e): the target is demonstrated, self-directed competence, not compliance.
 
 ### 7d. Durable-skills framework (one page)
 
@@ -155,5 +155,9 @@ Grounded in the presenter's **firsthand experience, framed vividly** — stories
 3. **Presentation outline** — markdown, slide-by-slide, with speaker notes (~20-30 slides for a 30-45 min session). The wake-up call that earns attention for the toolkit.
 4. **Durable-skills framework** — one page, six clusters, with the gradual-release thread (§7d-7e).
 5. **3-4 sample unit sketches** *(optional)* — for teachers with room to go beyond weave-in (§7f).
+
+**Interactive distribution:**
+
+6. **GitHub Pages interactive hub** — a polished single-page static site (no build step) that makes all of the above accessible interactively: a hero stating the "school game" thesis; the six skills as expandable cards; the competency rubrics as interactive tables; a filterable weave-in strategy explorer; and the presentation as a browser-presentable reveal.js slide deck. Mobile-friendly. The Markdown files remain the canonical source; the site is the presentation layer.
 
 Final slide tool to be chosen after the outline is approved.
