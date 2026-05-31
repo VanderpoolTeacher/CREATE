@@ -16,3 +16,6 @@ Icon
 
 # Generated artifacts (keep sources, ignore exports unless intentionally added)
 *.tmp
+
+# Personal working docs — not part of the published repo
+presentation/speaker-script.md
