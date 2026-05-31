@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Editor / temp
+*~
+.*.swp
+.vscode/
+.idea/
+
+# Office temp/lock files
+~$*
+.~lock.*
+
+# Generated artifacts (keep sources, ignore exports unless intentionally added)
+*.tmp
