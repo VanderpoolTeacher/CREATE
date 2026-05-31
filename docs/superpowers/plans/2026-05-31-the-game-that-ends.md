@@ -68,15 +68,16 @@ The take-home core (spec §7c). One single-page rubric per cluster, each on a 3-
 - [ ] **Step 1: Define acceptance criteria** (the "test")
 
 The finished file must:
+- Be **competency-based**: each rubric is built from observable **"The student can…" competency statements**, not generic quality bands.
 - Contain one rubric for each of the six clusters, using the exact cluster names from Task 1.
-- Use a consistent 3-level scale across all rubrics. Levels: **Emerging → Developing → Independent** (the top level is named to reinforce the gradual-release goal from spec §7e — the aim is independence, not compliance).
-- For each rubric, give 2-4 observable criteria rows, with a plain-language descriptor in each of the three levels (no jargon; an observable behavior a teacher could spot).
-- Tie at least one criterion per rubric to a behavior the spec named (e.g., for Initiative: "starts without prompting"; for Communication: "uses notes/note cards to present"; for Work & time org: "uses a calendar / organizes files").
+- Use a consistent **4-level continuum** across all rubrics: **Not Yet → Approaching → Proficient → Advanced**, where *Proficient* = the competency is demonstrated and *Advanced* = the student does it unprompted / extends it. This mastery orientation reinforces the gradual-release goal from spec §7e (target = demonstrated, self-directed competence, not compliance).
+- For each rubric, give 2-4 competency-statement rows, with a plain-language descriptor in each of the four levels (no jargon; an observable behavior a teacher could spot).
+- Tie at least one competency per rubric to a behavior the spec named (e.g., for Initiative: "starts without prompting"; for Communication: "presents to a group / uses note cards"; for Work & time org: "uses a calendar / organizes files").
 - Each rubric fits on one printed page.
 
 - [ ] **Step 2: Write the rubrics**
 
-Write `toolkit/rubrics.md`. Open with a 2-3 sentence "how to use these" note: these are meant to be applied to assignments teachers already give, scoring the *skill* alongside the content. Then six rubric tables. Each table: columns = `Criterion | Emerging | Developing | Independent`; rows = the 2-4 observable criteria for that cluster. Anchor descriptors in spec behaviors (decomposition, ambiguity/early questions, initiative/self-start, work+time org incl. calendar & files, communication/note cards, digital & systems fluency / "where files live").
+Write `toolkit/rubrics.md`. Open with a 2-3 sentence "how to use these" note: these are competency-based and meant to be applied to assignments teachers already give, scoring the *skill* alongside the content. Then six rubric tables. Each table: columns = `Competency — "The student can…" | Not Yet | Approaching | Proficient | Advanced`; rows = the 2-4 competency statements for that cluster. Anchor descriptors in spec behaviors (decomposition, ambiguity/early questions, initiative/self-start, work+time org incl. calendar & files, communication/note cards, digital & systems fluency / "where files live").
 
 - [ ] **Step 3: Verify against acceptance criteria**
 
@@ -247,7 +248,7 @@ git push
 - §7b weave-in → Task 3.
 - §7c frameworks & rubrics → Task 2, Task 3.
 - §7d framework → Task 1.
-- §7e gradual release → Tasks 2 (rubric top level "Independent"), 3 (closing), 5 (releasing support).
+- §7e gradual release → Tasks 2 (rubric mastery orientation: Proficient/Advanced = demonstrated, self-directed competence), 3 (closing), 5 (releasing support).
 - §7f sample units → Task 5.
 - §8 stories → Task 4 (source anecdotes + `[YOUR STORY]` prompts).
 - §9 deliverables → all tasks; toolkit (Tasks 1-3) sequenced first as the headline.
@@ -256,4 +257,4 @@ No gaps found.
 
 **Placeholder scan:** `[YOUR STORY]` is an intentional, defined convention scoped to the presentation notes (Task 4) and explicitly kept out of toolkit files (Task 6 check). No other placeholders.
 
-**Type/name consistency:** The six cluster names are fixed in Task 1 and reused by exact name in Tasks 2, 3, 4, 6; the rubric scale (Emerging / Developing / Independent) is defined once in Task 2 and referenced in Task 5's gradual-release language. Consistent.
+**Type/name consistency:** The six cluster names are fixed in Task 1 and reused by exact name in Tasks 2, 3, 4, 6; the rubric scale (Not Yet / Approaching / Proficient / Advanced) is defined once in Task 2 and referenced in Task 5's gradual-release language. Consistent.

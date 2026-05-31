@@ -101,7 +101,7 @@ Each is a tweak to existing work, not a new unit.
 Lightweight, reusable tools the audience can use Monday morning:
 
 - A short **framework/checklist** students can apply to any ambiguous task (e.g., a decomposition prompt sequence: *What's being asked? What don't I know? What are the steps? What's first?*).
-- **Single-page rubrics for teaching *and* assessing** each of the six skill clusters — so a skill that's currently invisible becomes nameable and gradeable *inside* assignments teachers already give.
+- **Competency-based, single-page rubrics for teaching *and* assessing** each of the six skill clusters — so a skill that's currently invisible becomes nameable and gradeable *inside* assignments teachers already give. Each rubric is built from observable **"The student can…" competency statements**, scored on a 4-level continuum — **Not Yet → Approaching → Proficient → Advanced** — where *Proficient* means the competency is demonstrated and *Advanced* means the student does it unprompted / extends it. This mastery orientation reinforces the gradual-release goal (§7e): the target is demonstrated, self-directed competence, not compliance.
 
 ### 7d. Durable-skills framework (one page)
 
