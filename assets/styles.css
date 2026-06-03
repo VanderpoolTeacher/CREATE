@@ -63,7 +63,7 @@ p { margin: 0 0 1rem; }
 a { color: var(--teal); text-decoration: none; }
 a:hover { color: var(--teal-700); }
 
-.wrap { width: 100%; max-width: var(--wrap); margin: 0 auto; padding: 0 clamp(1.1rem, 4vw, 2.5rem); }
+.wrap { width: 100%; max-width: var(--wrap); margin: 0 auto; padding: 0 clamp(1.5rem, 5vw, 2.5rem); }
 
 .visually-hidden, .skip-link {
   position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px;
@@ -102,7 +102,7 @@ a:hover { color: var(--teal-700); }
   border-bottom: 1px solid var(--line);
 }
 .nav__inner {
-  max-width: var(--wrap); margin: 0 auto; padding: 0 clamp(1.1rem, 4vw, 2.5rem);
+  max-width: var(--wrap); margin: 0 auto; padding: 0 clamp(1.5rem, 5vw, 2.5rem);
   height: 70px; display: flex; align-items: center; justify-content: space-between; gap: 1rem;
 }
 .brand { display: inline-flex; align-items: center; gap: .6rem; color: var(--ink); font-weight: 700; }
@@ -146,7 +146,7 @@ a:hover { color: var(--teal-700); }
     position: absolute; top: 70px; left: 0; right: 0;
     flex-direction: column; align-items: stretch; gap: .15rem;
     background: var(--paper-2); border-bottom: 1px solid var(--line);
-    padding: .75rem clamp(1.1rem, 4vw, 2.5rem) 1.25rem;
+    padding: .75rem clamp(1.5rem, 5vw, 2.5rem) 1.25rem;
     box-shadow: var(--shadow-md);
     transform: translateY(-8px); opacity: 0; pointer-events: none;
     transition: transform .22s var(--ease), opacity .22s var(--ease);
@@ -287,6 +287,18 @@ a:hover { color: var(--teal-700); }
 .rubric__dl:hover { background: var(--teal-700); color: #fff; transform: translateY(-1px); }
 .rubric__dl--ghost { background: #fff; color: var(--teal-700); }
 .rubric__dl--ghost:hover { background: var(--teal-100); color: var(--teal-700); }
+
+/* On small screens the wide rubric table forces horizontal scrolling —
+   hide it and let the PDF downloads carry the section instead. */
+@media (max-width: 820px) {
+  .rubric__tablewrap, .rubric__toggle, .rubric__hint { display: none; }
+  .rubric__downloads { padding: 1.2rem; flex-direction: column; align-items: stretch; }
+  .rubric__downloads::before {
+    content: "Pick a skill above, then download its rubric (full table is in the PDF).";
+    display: block; font-size: .85rem; color: var(--slate); margin-bottom: .2rem;
+  }
+  .rubric__dl { justify-content: center; }
+}
 
 .rubric__tablewrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .rubric__table { border-collapse: collapse; width: 100%; min-width: 760px; font-size: .92rem; }
