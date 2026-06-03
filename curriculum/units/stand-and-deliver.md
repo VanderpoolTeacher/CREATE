@@ -125,6 +125,18 @@ Score with [`toolkit/rubrics.md`](../../toolkit/rubrics.md) — the **Communicat
 
 Because the routine repeats, the best assessment artifact is the trend: pull a student's reflection logs across the term and read them next to the rubric. Growth shows up in the stack.
 
+### The rubric for this unit
+
+Lay these competency rows over the Friday talks students are already giving — no separate assignment. **Proficient** is the target (demonstrated and independent); **Advanced** means the student extends the skill unprompted.
+
+#### Communication & Presentation
+
+| The student can… | Not Yet | Approaching | Proficient | Advanced |
+|---|---|---|---|---|
+| **…present work to a group clearly and within time.** | Reads directly from a screen or sheet with no eye contact; audience cannot follow the explanation. | Makes occasional eye contact and has a loose structure but loses the thread partway through. | Looks at the audience, follows a clear arc (what I did, why, what I learned), and finishes within time. | Tailors the arc to this specific audience, anticipates a likely question, and lands the close memorably. |
+| **…use note cards as a guide, not a script.** | Either reads every word verbatim or improvises with no structure at all. | Uses notes but drifts into reading them word-for-word when nervous. | Glances at note cards to stay on track but speaks in their own words; cards hold cues, not sentences. | Uses a minimal cue system that keeps eye contact nearly continuous and recovers smoothly from any stumble. |
+| **…explain the reasoning behind their decisions, not just the output.** | Describes what the project is without explaining why any choices were made. | Names a choice or two when prompted but cannot explain the reasoning unprompted. | Volunteers the reasoning behind at least one key decision and can answer "why did you do it that way?" without hesitation. | Weaves decision rationale throughout the presentation, names trade-offs considered, and invites pushback. |
+
 ## Gradual release across the term
 
 | | Teacher provides | Student provides |

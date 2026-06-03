@@ -114,6 +114,18 @@ Score with [`toolkit/rubrics.md`](../../toolkit/rubrics.md), Digital & Systems F
 
 **Proficient** = does it independently this time — finds the file, draws an honest model, asks the right questions without being told. **Advanced** = applies the mental model to *predict* behavior in an unfamiliar tool, or maintains a file/account system organized well enough that someone else could navigate it.
 
+### The rubric for this unit
+
+Lay these competency rows over the diagrams and audit students already produced — no separate assignment. **Proficient** is the target (demonstrated and independent); **Advanced** means the student extends the skill unprompted.
+
+#### Digital & Systems Fluency
+
+| The student can… | Not Yet | Approaching | Proficient | Advanced |
+|---|---|---|---|---|
+| **…locate where a file lives and retrieve it immediately.** | Cannot locate files on their own device; does not distinguish local storage, cloud, and downloads folder. | Can find a file eventually but describes its location in vague terms ("it's saved somewhere"). | Can state where a file is saved and why (local vs. cloud, which folder, which account) and retrieve it immediately. | Maintains a consistent storage system, can explain it to a peer, and recovers quickly when a sync or access issue occurs. |
+| **…describe a basic mental model of how a piece of software does its job.** | Treats software as a black box; has no model for what happens between input and output. | Can describe the general purpose of a tool but not how data moves through it. | Gives a simple, accurate model: input goes in, it is processed this way, output comes out — without jargon. | Applies the mental model to predict what will happen in an unfamiliar tool or when something goes wrong. |
+| **…troubleshoot when technology does not behave as expected.** | Stops working and waits for someone else to fix the problem. | Tries one thing (usually restarting) and escalates immediately if it does not work. | Works through a small set of logical steps, narrows down the likely cause, and escalates with a specific description of what was tried. | Diagnoses systematically, searches for solutions independently, and documents the fix so it can be reused. |
+
 ## Gradual release across the three audits
 
 | | Teacher provides | Student provides |

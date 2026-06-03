@@ -95,6 +95,26 @@ Score with [`toolkit/rubrics.md`](../../toolkit/rubrics.md), two clusters, no se
 
 **Proficient** = does it independently this time. **Advanced** = anticipates the ambiguity before you surface it, or drafts a working definition to validate early.
 
+### The rubric for this unit
+
+Lay these competency rows over the work students already produced — no separate assignment. **Proficient** is the target (demonstrated and independent); **Advanced** means the student extends the skill unprompted.
+
+#### Working with Ambiguity
+
+| The student can… | Not Yet | Approaching | Proficient | Advanced |
+|---|---|---|---|---|
+| **…ask clarifying questions early, not the night before something is due.** | Goes silent when a project is introduced; sends questions only when the deadline is hours away. | Asks some questions but waits until stuck rather than front-loading key clarifications at the start. | Within the first day or two, asks targeted questions that remove the biggest unknowns before starting. | Anticipates ambiguities before the teacher surfaces them and drafts a working definition to validate early. |
+| **…make a stated assumption and keep working when information is incomplete.** | Freezes or refuses to proceed without explicit instructions for every step. | Will move forward when told it is okay, but does not name or flag the assumption made. | States the assumption out loud ("I'm treating X as Y — let me know if that's wrong") and keeps working. | Names assumptions, weighs the risk of each, and designs the work so it can adapt quickly if an assumption is wrong. |
+| **…adapt when requirements shift mid-project.** | Treats a change in scope as a crisis; restarts from scratch or shuts down. | Adjusts the work but needs reassurance before continuing and may discard still-usable material. | Acknowledges the change, identifies which parts of existing work still apply, and updates the plan without drama. | Frames the change as useful data, identifies the delta, adjusts with minimal lost work, and brings the team along. |
+
+#### Decomposition
+
+| The student can… | Not Yet | Approaching | Proficient | Advanced |
+|---|---|---|---|---|
+| **…break a project into ordered steps without being handed a checklist.** | Waits for the teacher to provide a step-by-step list; cannot name a next action independently. | Names a few steps when prompted, but order is incomplete or missing key pieces. | Independently maps out an ordered sequence before asking for help, and adjusts the plan when something changes. | Produces a sequenced breakdown unprompted, flags dependencies or risks, and helps a peer do the same. |
+| **…identify which step must come first (the blocker).** | Lists tasks randomly with no sense of what must happen before something else can start. | Puts most steps in a workable order but skips at least one dependency (e.g., writing before researching). | Sequences steps so each one sets up the next and can explain why a particular step is the blocker. | Identifies the critical path and redesigns the sequence when a blocker changes. |
+| **…size each step so work can be paced.** | Treats all tasks as the same effort; no sense of relative size. | Can identify big vs. small tasks but does not connect estimates to available time. | Sizes each step well enough to decide where to start and how to pace across available days. | Estimates effort, builds in buffer for likely problems, and revises estimates mid-project based on evidence. |
+
 ## Gradual release across the three iterations
 
 | | Teacher provides | Student provides |

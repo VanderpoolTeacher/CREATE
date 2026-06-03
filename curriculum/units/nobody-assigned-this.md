@@ -97,6 +97,18 @@ Score with [`toolkit/rubrics.md`](../../toolkit/rubrics.md), the Initiative / Se
 
 **Proficient** = does it independently this time. **Advanced** = begins before the formal start, documents what was tried and frames a precise question, and generates multiple options and acts on the most promising one.
 
+### The rubric for this unit
+
+Lay these competency rows over the work students already produced — no separate assignment. **Proficient** is the target (demonstrated and independent); **Advanced** means the student extends the skill unprompted.
+
+#### Initiative / Self-Starting
+
+| The student can… | Not Yet | Approaching | Proficient | Advanced |
+|---|---|---|---|---|
+| **…start work without being prompted.** | Sits idle after an assignment is given; waits to be told the specific next step before doing anything. | Gets started after a general nudge ("you should probably begin") but needs that nudge every session. | Opens the project and begins on their own, without a reminder, at the expected time or earlier. | Begins before the formal start, scopes what they don't know yet, and shares early drafts to surface issues fast. |
+| **…investigate a problem before asking for help.** | Asks the first question that arises without attempting to find the answer independently. | Makes one attempt to find an answer, then asks immediately if it does not work. | Makes a genuine effort to investigate (tries a different approach, searches, re-reads) and then asks a specific, informed question. | Documents what was tried before asking, frames the question precisely, and proposes a hypothesis to test. |
+| **…propose a next step when stuck.** | Reports being stuck and waits for the teacher to provide the next move. | Describes the problem but offers no idea for how to proceed. | Describes the problem and names at least one concrete thing to try next. | Generates multiple options, evaluates the trade-offs briefly, and acts on the most promising one. |
+
 ## Gradual release across the three iterations
 
 | | Teacher provides | Student provides |

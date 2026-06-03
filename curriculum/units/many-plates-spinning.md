@@ -97,6 +97,18 @@ Score with [`toolkit/rubrics.md`](../../toolkit/rubrics.md), one cluster, no sep
 
 **Proficient** = does it independently this time. **Advanced** = proactively surfaces conflicts before you raise them and keeps collaborators informed of changes as they happen.
 
+### The rubric for this unit
+
+Lay these competency rows over the work students already produced — no separate assignment. **Proficient** is the target (demonstrated and independent); **Advanced** means the student extends the skill unprompted.
+
+#### Work & Time Organization
+
+| The student can… | Not Yet | Approaching | Proficient | Advanced |
+|---|---|---|---|---|
+| **…use a calendar to protect work time before deadlines arrive.** | Does not use a calendar; all planning is in their head or not at all. | Has deadlines written down but does not block time in advance to do the work. | Adds working sessions to a calendar before deadlines arrive and notices when two projects collide. | Proactively protects time weeks out, flags conflicts to collaborators early, and adjusts when new demands appear. |
+| **…organize files so work can be found again without a search.** | Files are untitled, saved to a default location, or simply lost; cannot locate own work. | Files are saved but named inconsistently; finding them takes trial and error. | Files are named clearly and stored in a folder structure they can describe to someone else; nothing important is lost. | Maintains a system others could navigate, versions work intentionally, and can explain the logic of their structure. |
+| **…track open tasks across more than one project at a time.** | Loses track of what is due when managing more than one assignment. | Tracks due dates individually but misses that two land on the same day or require shared prep time. | Maintains a running task list across all projects and updates it regularly without reminders. | Uses their system to proactively surface conflicts, reprioritize, and keep collaborators informed. |
+
 ## Gradual release across the three weeks
 
 | | Teacher provides | Student provides |
