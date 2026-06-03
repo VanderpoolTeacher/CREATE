@@ -16,20 +16,20 @@
 
   <style>
     :root {
-      /* Anthony Wayne Innovation & Design — brand tokens */
-      --ink:      #1F3A93;
-      --ink-soft: #1A1A1A;
-      --slate:    #555555;
-      --paper:    #F5F7FB;
+      /* Earthy palette — coolors.co/f7f7f2-e4e6c3-899878-222725-121113 */
+      --ink:      #121113;
+      --ink-soft: #222725;
+      --slate:    #899878;
+      --paper:    #F7F7F2;
       --paper-2:  #FFFFFF;
-      --teal:     #1F3A93;
-      --teal-700: #16306C;
-      --teal-100: #E7EEFB;
-      --clay:     #EA580C;
-      --clay-600: #C2460A;
-      --amber:    #EA580C;
-      --amber-100:#FFF1E9;
-      --good:     #1F3A93;
+      --teal:     #899878;
+      --teal-700: #222725;
+      --teal-100: #E4E6C3;
+      --clay:     #222725;
+      --clay-600: #121113;
+      --amber:    #899878;
+      --amber-100:#E4E6C3;
+      --good:     #899878;
       --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
       --font-display: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     }
@@ -144,16 +144,16 @@
     /* ---- Title slide ---- */
     #title-slide {
       background:
-        radial-gradient(900px 520px at 80% -10%, rgba(234,88,12,.18), transparent 60%),
-        radial-gradient(760px 640px at -8% 115%, rgba(22,48,108,.65), transparent 55%),
-        linear-gradient(160deg, #1F3A93 0%, #1b347f 60%, #16306C 100%);
+        radial-gradient(900px 520px at 80% -10%, rgba(137,152,120,.22), transparent 60%),
+        radial-gradient(760px 640px at -8% 115%, rgba(34,39,37,.6), transparent 55%),
+        linear-gradient(160deg, #222725 0%, #1a1f1d 60%, #121113 100%);
       color: #fff;
       padding: 2.5% 5%;
       box-shadow: none;
     }
     #title-slide .eyebrow {
       color: var(--amber);
-      border: 1px solid rgba(234,88,12,.45);
+      border: 1px solid rgba(137,152,120,.5);
       border-radius: 999px;
       padding: .35em .85em;
     }
@@ -169,7 +169,7 @@
       margin: .3em 0 1em;
     }
     #title-slide .byline {
-      color: #d7dee2;
+      color: #E4E6C3;
       font-family: var(--font-sans);
       font-size: .62em;
       font-style: normal;
@@ -199,11 +199,11 @@
     .tiers { display: flex; gap: .9em; margin-top: .5em; }
     .tier {
       flex: 1; border-radius: 14px; padding: .8em .9em;
-      background: var(--paper-2); border: 1px solid #e2e6e1;
+      background: var(--paper-2); border: 1px solid #E4E6C3;
       font-size: .7em;
     }
     .tier b { display: block; font-family: var(--font-display); color: var(--ink); margin-bottom: .2em; font-size: 1.15em; }
-    .tier.is-focus { background: var(--amber-100); border-color: var(--amber); box-shadow: 0 8px 28px rgba(234,88,12,.22); }
+    .tier.is-focus { background: var(--amber-100); border-color: var(--amber); box-shadow: 0 8px 28px rgba(137,152,120,.25); }
     .tier.is-focus b { color: var(--clay-600); }
 
     /* AI motif (slide 15) */
@@ -219,7 +219,7 @@
     .ladder { display: flex; gap: .4em; flex-wrap: wrap; margin-top: .5em; font-size: .7em; }
     .ladder span {
       padding: .35em .7em; border-radius: 999px; font-weight: 600;
-      background: var(--paper-2); border: 1px solid #e2e6e1; color: var(--ink-soft);
+      background: var(--paper-2); border: 1px solid #E4E6C3; color: var(--ink-soft);
     }
     .ladder span.target { background: var(--clay); color: #fff; border-color: var(--clay); }
 
@@ -269,7 +269,7 @@
     .reveal.overview .hub-link { display: none; }
 
     /* speaker-note marker for [YOUR STORY] prompts */
-    aside.notes .your-story { color: #EA580C; font-style: italic; }
+    aside.notes .your-story { color: #899878; font-style: italic; }
 
     @media (max-width: 700px) {
       .tiers { flex-direction: column; }
@@ -284,7 +284,7 @@
     <div class="slides">
 
       <!-- ===== Slide 1 — Rebuilding the Foundations for Student Success ===== -->
-      <section id="title-slide" data-background-color="#1F3A93">
+      <section id="title-slide" data-background-color="#121113">
         <span class="eyebrow">A keynote for K-12 educators</span>
         <h1>Rebuilding the Foundations<br />for Student Success</h1>
         <p class="sub">What Students Need After the Last Checklist</p>
@@ -578,7 +578,7 @@
       </section>
 
       <!-- ===== Slide 28 — Maya Asks the First Question ===== -->
-      <section data-background-color="#1F3A93">
+      <section data-background-color="#121113">
         <span class="eyebrow" style="color:var(--amber);">The ask</span>
         <p class="quote-big" style="color:#fff;">Imagine Maya raising her hand on day one.</p>
         <div class="ask">
@@ -586,7 +586,7 @@
           The framework, rubrics, and full strategy menu are in the toolkit hub.
         </div>
         <img class="qr" src="assets/qr-site.svg" alt="QR code linking to the toolkit hub at vanderpoolteacher.github.io/CREATE" />
-        <p class="muted" style="color:#c6d0d6; margin-top:.2em;">Scan to take it all home &mdash; <strong style="color:#fff;">vanderpoolteacher.github.io/CREATE</strong></p>
+        <p class="muted" style="color:#cdd0c2; margin-top:.2em;">Scan to take it all home &mdash; <strong style="color:#fff;">vanderpoolteacher.github.io/CREATE</strong></p>
         <aside class="notes">
           I'll leave you with Maya one last time. Imagine the version of Maya who, on the first day of her first real job, gets handed a vague, messy problem — and instead of freezing, she breaks it into steps, opens the right folder, and asks her manager the two sharp questions that save the whole project a week. That Maya isn't smarter than the one we met at the start. She just got the reps — from you, here, where it was safe to practice. Here's my ask, and it's a small one: pick <em>one</em> assignment you already give. Add <em>one</em> weave-in move from this toolkit. That's it. One assignment, one move, this semester. The framework, the rubrics, and the full strategy menu are all right here for you to take. Thank you — let's teach the game that doesn't end. (Alt landing you used live: "Let's go teach these kids how to play — beyond the school year.")
           <p class="your-story">YOUR STORY: a student who, given the chance to practice, surprised you by starting on their own. End on that face.</p>
