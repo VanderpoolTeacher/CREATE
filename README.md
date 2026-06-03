@@ -18,8 +18,8 @@ A polished, interactive hub: explore the six skills as expandable cards, the com
   - [`durable-skills-framework.md`](toolkit/durable-skills-framework.md) — one-page reference of the six skills.
   - [`rubrics.md`](toolkit/rubrics.md) — competency-based rubrics ("The student can…", Not Yet → Approaching → Proficient → Advanced).
   - [`weave-in-strategies.md`](toolkit/weave-in-strategies.md) — low-lift moves + the decomposition framework.
-- **[`presentation/outline.md`](presentation/outline.md)** — the slide-by-slide outline with speaker notes.
-- **[`curriculum/sample-units.md`](curriculum/sample-units.md)** — optional sample unit sketches for teachers with room to go further.
+- **[`presentation/`](presentation/)** — the [slide-by-slide outline](presentation/outline.md) and the full [speaker script](presentation/speaker-script.md) with delivery cues.
+- **[`curriculum/`](curriculum/README.md)** — five turnkey, pick-up-and-teach units (one per durable skill) for teachers with room to go further: full sessions, timing, copy-ready student handouts, look-fors, rubric links, and gradual-release plans. Each ends with a low-lift weave-in version. Quick-glance summaries in [`sample-units.md`](curriculum/sample-units.md).
 - **[`docs/superpowers/`](docs/superpowers/)** — the design spec and implementation plan.
 
 ## The six skill clusters

@@ -223,6 +223,9 @@
       var card = el("article", "unit");
       var panelId = "unit-panel-" + i;
       var builds = u.builds.map(function (b) { return "<span>" + esc(b) + "</span>"; }).join("");
+      var planLink = u.plan
+        ? "<p class='unit__plan'><a href='" + esc(u.plan) + "' target='_blank' rel='noopener'>Open the full lesson plan &rarr;</a></p>"
+        : "";
       card.innerHTML =
         "<div class='unit__body'>" +
           "<h3 class='unit__name'>" + esc(u.name) + "</h3>" +
@@ -235,6 +238,7 @@
         "<div class='unit__panel' id='" + panelId + "'><div class='unit__panel-inner'>" +
           "<div class='unit__block'><h4>Core activity</h4><p>" + esc(u.activity) + "</p></div>" +
           "<div class='unit__block'><h4>Releasing support</h4><p>" + esc(u.releasing) + "</p></div>" +
+          planLink +
         "</div></div>";
       grid.appendChild(card);
       bindDisclosure($(".unit__btn", card), $(".unit__panel", card));
