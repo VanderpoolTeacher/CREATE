@@ -245,7 +245,7 @@ a:hover { color: var(--teal-700); }
 .card__name { font-family: var(--font-display); font-weight: 600; font-size: 1.22rem; color: var(--ink); display: block; line-height: 1.15; }
 .card__chevron { flex: 0 0 auto; color: var(--slate); transition: transform .25s var(--ease); margin-top: 4px; }
 .card__btn[aria-expanded="true"] .card__chevron { transform: rotate(180deg); }
-.card__def { font-family: var(--font-sans); font-weight: 400; color: var(--ink-soft); margin: .65rem 0 0; font-size: .98rem; }
+.card__def { font-family: var(--font-sans); font-weight: 400; color: var(--ink-soft); margin: 1.15rem 0 0; font-size: .98rem; }
 
 .card__panel { overflow: hidden; max-height: 0; transition: max-height .3s var(--ease); }
 .card__panel-inner { padding: 0 1.35rem 1.3rem; }
