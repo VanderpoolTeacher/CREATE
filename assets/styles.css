@@ -238,7 +238,7 @@ a:hover { color: var(--teal-700); }
   display: block; width: 100%; text-align: left; background: transparent; border: 0; cursor: pointer;
   padding: 1.3rem 1.35rem; font: inherit; color: inherit;
 }
-.card__top { display: flex; align-items: flex-start; gap: .85rem; }
+.card__top { display: flex; align-items: flex-start; gap: 1.25rem; }
 .card__num {
   flex: 0 0 auto; width: 34px; height: 34px; border-radius: 9px; display: grid; place-items: center;
   font-family: var(--font-display); font-weight: 600; font-size: 1.05rem; color: #fff; background: var(--teal);
