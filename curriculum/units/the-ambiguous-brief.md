@@ -34,6 +34,19 @@ By the end of the third iteration, **students can ask targeted clarifying questi
 
 **Students need:** the handout, something to write with (pencil and paper is the point — see the keynote), and for iteration 3, the question checklist they helped build in iteration 2.
 
+## A brief bank you can use
+
+Each of these is deliberately *thin* on purpose — it names a goal and an audience but withholds the format, the length, the materials, and the definition of "done." That missing information is exactly what students must surface with questions. Hand one out as-is (don't add detail), and adapt the bracketed parts to your subject. Rotate a different brief through each iteration so students can't reuse last time's plan.
+
+1. **The newcomer.** *"Create something that helps a new student feel at home in our school."*
+2. **Teach it down.** *"Make something that teaches a younger student one important idea from [our current unit]."*
+3. **Make the case.** *"Propose a change that would make our classroom or school work better — and convince the person who could actually approve it."*
+4. **The local issue.** *"Help people in our town understand [a topic we've studied] and why it matters to them."*
+5. **The how-to.** *"Create a resource that would let someone complete [a task from this class] without your help."*
+6. **Get them to care.** *"Get a specific group of people to care about [a topic from this course]."*
+
+> **The one rule when you hand it over:** if a student asks "what format should it be / how long / what counts as good?", don't answer it as fact — answer as the client ("That's a great question — what do you think serves the audience best?") or hand the decision back. The point is that *they* resolve the ambiguity, not that you fill it in.
+
 ## The arc at a glance
 
 | Session | Focus | ~Time |
