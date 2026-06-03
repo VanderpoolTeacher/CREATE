@@ -34,6 +34,51 @@ By the end of the third audit, **students can independently trace where their ow
 
 **Students need:** the handout, their own device logged into their own school accounts, and something to write/draw with (a blank diagram drawn by hand is the point — see the keynote).
 
+### Worked examples you can model
+
+Use these so you never have to invent anything live — pick the one closest to your own setup, or borrow these verbatim.
+
+**A completed file-audit row (model this one on the board first).** Fill in the table for *your own* project the way you'd want students to fill it in for theirs. Here's a fully worked example you can copy:
+
+| | Project 1 — *worked example* |
+|---|---|
+| What is the file called? | `Bio-CellDiagram-final.pptx` |
+| What folder is it in? | **School** Google Drive → "Biology" → "Unit 3 — Cells" |
+| On this device, in the cloud, or both? | **Both** — there's a copy in my laptop's Downloads *and* the live one in Drive |
+| Which account owns it? (school / personal / the app's own) | My **school** Google account (the @school address, not my Gmail) |
+| Could you find and open it in 30 seconds right now? (Y/N) | **Y** — but only the Drive copy; I'm not sure the Downloads one is the latest |
+
+Say the quiet part out loud as you fill it in: *"Notice I have two copies and I'm only sure about one of them — that's exactly the kind of honest answer I want from you."* The **?** and the "I'm not sure" are the model, not a flaw.
+
+**Board diagram — "what happens when I hit submit."** Sketch this left-to-right as boxes with arrows; speak each box as you draw it:
+
+```
+my file on my device  →  uploads over the internet  →  the LMS / school server
+   →  lands in the teacher's submission inbox  →  teacher (and the system) can
+   open it, and it logs the time I submitted
+```
+
+Talking point while drawing: *"Every arrow is a place the file moves and a place someone new can see it. The middle arrows are where most of us have a big question mark — that's fine, mark it with a ?"*
+
+**Board diagram — "what an AI tool does with the text I type" (for Session 3).** Same left-to-right boxes:
+
+```
+my typed text  →  sent over the internet  →  the company's servers
+   →  a reply comes back to me  →  a copy may be kept (sometimes used to
+   train the tool, depending on the settings and the company)
+```
+
+Talking point while drawing: *"The reply is the only part I actually see. Everything before and after it happens somewhere I can't watch — so the real question is what I'm willing to put into that first box."*
+
+**Bank of tools/workflows students can choose from (Sessions 2 & 3).** Post this list so no student stalls on "what do I pick?" Each must be *different* from what they audited before:
+
+- **The LMS** (Canvas / Google Classroom / Schoology) — where does a submitted assignment actually go?
+- **A shared drive or class folder** — who else can open or edit what's in it?
+- **Photo backup** (iCloud / Google Photos) — where do phone photos live, and who has them?
+- **A group doc** (shared Google Doc / OneDrive) — who owns it, and what happens if the owner graduates?
+- **A messaging app used for school** (group chat, Discord, Remind) — where do those messages live and for how long?
+- **A specific AI tool you permit** (e.g., the school's approved chatbot) — what happens to the words typed in? *(best saved for Session 3)*
+
 ## The arc at a glance
 
 | Session | Focus | ~Time |
@@ -62,6 +107,12 @@ By the end of the third audit, **students can independently trace where their ow
 
 - **(5 min) Hand it over completely.** No worksheet, no chosen tool, no prompts. *"You pick the tool. You design the diagram. You write the questions worth asking about it."*
 - **(15 min) AI focus: what does it do with my words?** Each student diagrams, in their own design, what an AI tool does with the text they type into it: my typed text → where it goes → what comes back → who/what keeps a copy. They don't need technical depth — they need a *mental model* honest enough to predict behavior.
+  - **Facilitation script — prompts to drive the data-flow discussion** (ask 3–5 of these as students draw and debrief; keep pushing for *where* and *who*, not technical mechanics):
+    - *"When you type something into an AI tool, where does it physically go — does it stay on your device, or does it leave?"*
+    - *"If it leaves your device, whose computer does it land on — and can they read what you typed?"*
+    - *"The reply is the only part you see. Who else might see what you sent, and for how long is a copy kept?"*
+    - *"Could what you typed be used later to make the tool 'smarter'? How would you even find out?"*
+    - *"What's one thing you'd be totally fine typing into it — and one thing you'd never paste in? Why the difference?"*
 - **(10 min) Write your own questions.** Students write three questions a careful person should ask before trusting this tool with something private.
 - **(15 min) The close — one thing you'll do differently.** Go around (or written exit ticket): **one thing you will now do differently, and why.** Examples land like "I'm moving everything to my school account so it doesn't vanish in June," or "I won't paste my personal stuff into that AI." Collect these as the capstone artifact.
 

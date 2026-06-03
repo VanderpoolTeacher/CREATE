@@ -35,6 +35,55 @@ By the end of the third iteration, **students can spot an unassigned problem wor
 
 **Students need:** the handout, something to write with, and from iteration 2 on, a place to log what they tried before asking (a notebook margin, a sticky, an LMS field).
 
+### A problem menu you can use
+
+You don't have to invent the menu cold — pull from this bank, swap in problems your students actually feel, and retire the ones they solve. Keep each one small, real, and ownable in a single session. Especially for iteration 1, the menu does the *spotting* for the student on purpose. Ages 6–12: keep the wording concrete for younger students, push toward fuzzier and bigger-impact problems for older ones.
+
+**Classroom — problems inside your four walls:**
+- The classroom library has no order, so nobody can find the book they want.
+- The supply shelf (markers, glue, scissors) is a mess by midweek and half of it is dried out or empty.
+- We waste the first five minutes of class every day figuring out what to do.
+- There's no quiet spot to work when the room gets loud.
+- The class jobs list is out of date — some jobs nobody does, some nobody knows about.
+
+**School — problems beyond your room but inside the building:**
+- The recycling bins overflow by Thursday and nobody empties them.
+- New or visiting students can't find the library, the bathroom, or the office.
+- The lost-and-found is a giant unsorted pile.
+- The hallway water fountain has been broken for weeks and no one has reported it clearly.
+- Younger students don't know the lunchroom or recess rules until they break one.
+
+**Community — problems out past the building:**
+- A nearby crosswalk, bus stop, or park bench is unsafe, broken, or missing.
+- People walking by don't know what good our school or club actually does.
+- A local shelter, food pantry, or library has a need our class could meet in one small way.
+
+### Poster: "Try three things before you ask me"
+
+*(Print large and post permanently. This is the engine of the whole unit.)*
+
+> **TRY THREE THINGS BEFORE YOU ASK ME**
+>
+> **1. Re-read / re-look.** Read the directions or look at what you already have again — the answer is often already in front of you.
+>
+> **2. Try a different approach.** If your first way didn't work, try a second way before stopping.
+>
+> **3. Look it up.** Check a book, a poster, a website, or a classmate.
+>
+> *Then* — if you still need me — tell me what each try told you and ask a precise question.
+
+### Sentence stems (use these instead of "I'm stuck")
+
+Post these next to the poster, or print them on a card students keep. They turn *"I'm stuck"* into a precise, started request:
+
+- *"Here's what I tried…"*
+- *"Here's what each try told me…"*
+- *"Here's what I think the real problem is…"*
+- *"Here's what I'll try next…"*
+- *"My real question now is…"*
+
+Strung together, they become the one sentence that is the whole skill: *"I tried ___ , it told me ___ , so my real question is ___ — and next I'll try ___ ."*
+
 ## The arc at a glance
 
 | Session | Focus | ~Time |

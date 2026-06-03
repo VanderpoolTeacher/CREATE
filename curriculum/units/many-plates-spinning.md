@@ -36,6 +36,64 @@ By the end of week three, **students can run two concurrent projects with offset
 
 **Students need:** access to the shared calendar, a place to store digital files (or a physical folder/binder if you're offline), and something to keep a running task list on — paper or doc, their choice, but it has to be *live*, not redone from scratch each session.
 
+### A project-pair bank you can use
+
+Don't invent two projects — adopt a pair below as-is, or swap in projects you were already assigning and keep the same offset timing. The only rule: the two timelines **overlap**, and **Project A is due near the end of week two, Project B near the end of week three.** Pick the pair closest to your subject and grade band.
+
+- **Middle-school ELA (6–8):** **Project A —** a one-page book review of a free-choice novel, *due end of week 2.* **Project B —** a "recommend it or skip it" video or poster pitch for the same book, *due end of week 3.* (B reuses A's thinking, so students feel the cost of letting A slip.)
+- **Middle/high science (7–10):** **Project A —** a labeled diagram + caption explaining one process (water cycle, cell division, circuits), *due end of week 2.* **Project B —** a short data-collection lab write-up on a related question, *due end of week 3.* (Both need bench/lookup time, so the calendar collisions are real.)
+- **High-school social studies (9–12):** **Project A —** an annotated source analysis of two primary documents, *due end of week 2.* **Project B —** a 3–4 paragraph argument essay that cites those sources, *due end of week 3.* (B depends on A being findable — rewards good file naming.)
+- **High school / CTE (9–college):** **Project A —** a résumé draft tailored to one real posting, *due end of week 2.* **Project B —** a cover letter + 60-second intro script for that same posting, *due end of week 3.* (Mirrors the real overlap of a single job application built in pieces.)
+
+### A sample calendar block you can display verbatim
+
+Show this on the screen in Week 1 exactly as written — it's deliberately boring and clear. A block is a reserved appointment with a project tag, not a vague "work on stuff."
+
+```
+Shared calendar — week of June 1
+
+Mon 6/1   3:00–3:30   (A) Project A — outline + gather sources
+Wed 6/3   3:00–3:30   (B) Project B — rough draft section 1
+Thu 6/4   3:00–3:30   (A) Project A — revise, due Friday
+Fri 6/5   ——— PROJECT A DUE ———
+Mon 6/8   3:00–3:30   (B) Project B — finish + proofread
+Wed 6/10  ——— PROJECT B DUE ———
+```
+
+Say it out loud: *"Each block names the project (A or B) and exactly what gets done — and it's on the calendar before the deadline, not after."*
+
+### A sample folder + file-naming structure you can display verbatim
+
+Put this on the screen alongside the calendar in Week 1. One named top folder per project, sensible subfolders, and a filename that carries **what it is + the date + a version** so it's findable next week.
+
+```
+Garcia-ProjectA/
+├── drafts/
+│   ├── ProjectA_outline_2026-06-01_v1.docx
+│   ├── ProjectA_draft_2026-06-03_v2.docx
+│   └── ProjectA_final_2026-06-05_v3.docx
+├── sources/
+│   └── ProjectA_sources-notes_2026-06-01.docx
+└── feedback/
+    └── ProjectA_peer-comments_2026-06-04.docx
+
+Garcia-ProjectB/
+├── drafts/
+│   └── ProjectB_draft_2026-06-08_v1.docx
+└── sources/
+    └── ProjectB_sources-notes_2026-06-08.docx
+```
+
+Say it out loud: *"No 'untitled.' Nothing on the desktop. The name tells you what it is, when you made it, and which version — so you find the latest one in ten seconds."*
+
+### Wording for the unannounced deadline shift (deliver this mid-unit, no warning)
+
+Read this **as written**, evenly and without apology, early in Week 2 — the surprise is the lesson, so don't soften it or hint beforehand. Adopt one line and deliver the same words to everyone:
+
+> *"Quick update, everyone. **Project A is now due two days earlier — the new due date is Wednesday, not Friday.** That's the only change; Project B's date stays the same. Take five minutes right now to adjust your task list and your calendar blocks to the new date, then write your three-sentence trade-off note: what you moved, what you had to give up or push, and why."*
+
+If your offset runs the other way, swap in: *"**Project B is now due two days later — the new date is ___.**"* Keep it to one deadline, two days, and no explanation of *why* it moved — real shifts rarely come with one.
+
 ## The arc at a glance
 
 | Session | Focus | ~Time |

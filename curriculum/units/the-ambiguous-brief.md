@@ -47,6 +47,45 @@ Each of these is deliberately *thin* on purpose — it names a goal and an audie
 
 > **The one rule when you hand it over:** if a student asks "what format should it be / how long / what counts as good?", don't answer it as fact — answer as the client ("That's a great question — what do you think serves the audience best?") or hand the decision back. The point is that *they* resolve the ambiguity, not that you fill it in.
 
+### Worked example & self-check
+
+Use brief #1 — *"Create something that helps a new student feel at home in our school."* — as your running exemplar. Everything below is the same brief carried through all three sessions, so you can model what "good" looks like without inventing it on the fly.
+
+**Session 1 — strong clarifying questions to model.** When you "prime the pump" on the board, these show the *targeted* end of the spectrum. Each one removes a real unknown rather than offloading a decision:
+
+1. Who exactly is the new student — what grade, do they speak English fluently, are they mid-year or day-one?
+2. "Feel at home" by when — their first hour, first day, or first month?
+3. What does "at home" actually look like — knowing where to go, knowing someone's name, or not feeling scared?
+4. Is the thing for *one* new student to use, or for *us* to give to every new student?
+5. What can the new student already see or be given on day one — is there a tour, a buddy, a packet?
+6. What's off-limits — can we contact families, walk the building, or use the school's name and logo?
+7. How will we know it worked — would we ask the new student, watch them use it, or check back in a week?
+8. How much time and what materials do we actually have to make it?
+
+> **Counter-examples to name out loud:** "What color should it be?" and "How long does it have to be?" are *weak* — they hand your decision to the client. Model crossing those out and asking instead, "What length actually serves a nervous new kid?"
+
+**Session 2 — sample decomposed plan (exemplar).** After the client answers the must-know questions, a proficient group's plan for this brief might look like this — phases in order, a named blocker, rough time:
+
+| # | Phase | Rough time |
+|---|---|---|
+| 1 | **Decide the audience + "done" together** (which new student, what "at home" means, how we'll check it worked) — **this is the blocker; nothing else can start until it's settled** | 10 min |
+| 2 | List what a new student needs in their first day (where to go, who to ask, what to expect) | 15 min |
+| 3 | Pick the format that best serves that need (a one-page map, a short buddy script, a 60-second video) | 10 min |
+| 4 | Build a rough draft of the chosen thing | 30 min |
+| 5 | Test it on someone who doesn't already know the answers, then fix what confused them | 20 min |
+
+> **Why phase 1 is the blocker:** every later phase depends on *who* the audience is and *what* "feels at home" means. Pick the format first and you'll likely rebuild it. Naming this dependency out loud is exactly the Decomposition rubric, row 2.
+
+**Session 3 — starter self-check checklist.** Students co-build their own version in iteration 2, but keep this ready so you're never empty-handed. Student-facing, yes/no:
+
+- [ ] I wrote down at least one **assumption** I was making before I asked anything.
+- [ ] I asked **questions at the start**, not after I got stuck.
+- [ ] My questions **remove real unknowns** (audience, "done", limits) — none of them just hand my decision to someone else.
+- [ ] I **sorted** my questions into *must-know-now* vs. *figure-out-later*.
+- [ ] My plan lists the phases **in order**.
+- [ ] I named the **one step that must happen first** (the blocker) and can say *why*.
+- [ ] Each phase has a **rough time estimate** that fits the time I actually have.
+
 ## The arc at a glance
 
 | Session | Focus | ~Time |

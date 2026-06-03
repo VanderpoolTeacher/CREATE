@@ -69,6 +69,46 @@ The same weekly cycle repeats. What changes is how much scaffolding you provide 
 - **(5 min) One structured note each.** After each talk, every listener gives the speaker **one** piece of feedback using the peer-feedback form: *What was the clearest moment? What would help you follow along even better?* Two questions, one note — not a critique pile-on.
 - **(3 min) Reflection log.** Before they sit down for good, each speaker writes two lines in their self-reflection log: one thing that worked, one thing to try next week. This is how they track their own growth across the term — the reps add up and they can see it.
 
+### A topic-card bank you can use
+
+Here's the deck so you don't have to invent it. Print this page, cut the lines into strips, drop them in three labeled envelopes — one per lane — and draw from the week's lane on Monday. Every prompt is written age-flexible (6–12): a younger student explains the simple version, an older one explains the *why* underneath it. Add or swap your own as your class finds its rhythm.
+
+**Personal** — *explain something you know or care about*
+- Explain how to do something you're good at, step by step (a game, a sport, a craft, a recipe).
+- Explain a place that matters to you and why someone should care about it.
+- Explain a hobby or collection to someone who's never heard of it.
+- Explain how to take care of a pet, a plant, or something you're responsible for.
+- Explain a song, show, or book you love — and what makes it actually good, not just fun.
+- Explain a skill you taught yourself and how you figured it out.
+- Explain a tradition in your family or community and where it comes from.
+- Explain something you changed your mind about, and what changed it.
+- Explain a problem you solved recently and how you got through it.
+- Explain something most people get wrong about a thing you know well.
+
+**Academic** — *explain a concept from another class*
+- Explain the water cycle — and why it never runs out.
+- Explain photosynthesis like the plant is doing a job with a purpose.
+- Explain how to solve one kind of math problem, and *why* the steps work, not just what they are.
+- Explain a moment in history and why it still matters today.
+- Explain what a fraction (or a percent, or a ratio) really means with a real-world example.
+- Explain how a food chain or ecosystem stays in balance — and what happens when it doesn't.
+- Explain the difference between two things people mix up (weather vs. climate, mass vs. weight, a fact vs. an opinion).
+- Explain what causes something in nature (tides, seasons, day and night, rain).
+- Explain a vocabulary word or idea from a class so clearly a younger kid would get it.
+- Explain a science experiment or a book you read and what it was really about.
+
+**Professional** — *explain a process, decision, or how something works*
+- Explain how you'd plan an event — and the order you'd do things in.
+- Explain how you decided between two options, and why you picked the one you did.
+- Explain how a job you find interesting actually works, day to day.
+- Explain how something gets made or how a service gets delivered, start to finish.
+- Explain how you'd spend a fixed budget on a goal, and what trade-off you'd make.
+- Explain how a team should split up a task so it gets done well.
+- Explain how you'd fix a problem if the first plan didn't work.
+- Explain how a tool, app, or machine works well enough that someone could use it.
+- Explain how you'd handle a tough situation with a customer, teammate, or classmate.
+- Explain a rule or process at school or work and why it exists.
+
 ---
 
 ## Student handout (copy-ready)
