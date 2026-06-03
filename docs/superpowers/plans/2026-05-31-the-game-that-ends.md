@@ -1,4 +1,4 @@
-# The Game That Ends — Implementation Plan
+# Rebuilding the Foundations for Student Success — Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
@@ -147,7 +147,7 @@ The finished file must:
 
 - [ ] **Step 2: Write the outline**
 
-Write `presentation/outline.md`. Top matter: title (*The Game That Ends: What Students Need After the Last Checklist*), audience, duration, slide count. Then one section per slide using a consistent template:
+Write `presentation/outline.md`. Top matter: title (*Rebuilding the Foundations for Student Success: What Students Need After the Last Checklist*), audience, duration, slide count. Then one section per slide using a consistent template:
 
 ```
 ### Slide N — <title>

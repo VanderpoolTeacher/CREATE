@@ -1,6 +1,6 @@
 # Curriculum — Turnkey Units
 
-Five pick-up-and-teach units, one for each durable skill, designed to accompany the talk *[The Game That Ends](../presentation/outline.md)*. Each unit is a complete lesson plan: objective, materials, a timed session-by-session sequence, a copy-ready student handout, teacher look-fors, the matching rubric, a gradual-release plan, differentiation notes, and common pitfalls.
+Five pick-up-and-teach units, one for each durable skill, designed to accompany the talk *[Rebuilding the Foundations for Student Success](../presentation/outline.md)*. Each unit is a complete lesson plan: objective, materials, a timed session-by-session sequence, a copy-ready student handout, teacher look-fors, the matching rubric, a gradual-release plan, differentiation notes, and common pitfalls.
 
 > **These units are optional — and that's by design.** The primary path is the [weave-in strategies](../toolkit/weave-in-strategies.md): small tweaks to assignments you already give, no new course required. These units are for when you have room to carve out dedicated practice time. Every unit ends with a **"low-lift version"** — the same skill compressed into a one-sentence weave-in move — so you can start small and grow into the full unit when the timing is right.
 

@@ -1,4 +1,4 @@
-/* Structured content for The Game That Ends toolkit hub.
+/* Structured content for Rebuilding the Foundations for Student Success toolkit hub.
    Content is canonical to the Markdown sources in /toolkit and /curriculum. */
 
 window.CREATE_CONTENT = {

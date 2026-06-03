@@ -1,4 +1,4 @@
-/* The Game That Ends — interactive hub
+/* Rebuilding the Foundations for Student Success — interactive hub
    Vanilla JS. Renders from window.CREATE_CONTENT. */
 (function () {
   "use strict";

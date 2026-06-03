@@ -1,11 +1,11 @@
-# Design Spec — "The Game That Ends"
+# Design Spec — "Rebuilding the Foundations for Student Success"
 
 **A presentation and illustrative curriculum for K-12 educators**
 
 - **Date:** 2026-05-31
 - **Presenter:** A college instructor with experience inside coding boot camps and alternate training models, working at the intersection of higher education and workforce development.
 - **Audience:** K-12 educators and administrators.
-- **Working title:** *The Game That Ends: What Students Need After the Last Checklist*
+- **Working title:** *Rebuilding the Foundations for Student Success: What Students Need After the Last Checklist*
   ("The school game" is the recurring metaphor used inside the talk, not the formal title.)
 
 ---

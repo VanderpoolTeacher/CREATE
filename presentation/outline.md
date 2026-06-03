@@ -1,4 +1,4 @@
-# The Game That Ends: What Students Need After the Last Checklist
+# Rebuilding the Foundations for Student Success: What Students Need After the Last Checklist
 
 **Audience:** K-12 educators and administrators
 **Duration:** 30-45 minutes
@@ -6,7 +6,7 @@
 
 ---
 
-### Slide 1 — The Game That Ends
+### Slide 1 — Rebuilding the Foundations for Student Success
 **On slide:** Title. Subtitle: "What Students Need After the Last Checklist." Speaker name + "higher ed / workforce development."
 **Notes:** Thanks for having me. I'm Mike Vanderpool — I teach at the college level, but I've also spent time inside coding boot camps and alternate training models, the place where higher ed and the workforce actually shake hands. So I get to watch what happens to your students about eighteen months after they walk across your stage. And I've watched it from a lot of angles — Northwest State, Defiance College, Bowling Green, online and face-to-face boot camps — so this isn't one classroom's bad luck. It's across the board. I want to share what I see there, because it's a wake-up call. But I promise you this isn't a talk that hands you a problem and walks off. You're going to leave holding something you can use Monday. Let's start with a scene you'll recognize.
 
