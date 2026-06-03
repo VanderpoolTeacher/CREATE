@@ -317,7 +317,7 @@ a:hover { color: var(--teal-700); }
 
 /* ============ WEAVE-IN ============ */
 .callout {
-  position: relative; background: linear-gradient(155deg, var(--teal) 0%, var(--teal-700) 100%);
+  position: relative; background: linear-gradient(155deg, var(--ink-soft) 0%, var(--ink) 100%);
   color: #fff; border-radius: var(--r-lg); padding: clamp(1.6rem, 4vw, 2.6rem); box-shadow: var(--shadow-lg);
   margin-bottom: 2.5rem; overflow: hidden;
 }
