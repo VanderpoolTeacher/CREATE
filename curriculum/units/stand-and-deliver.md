@@ -9,6 +9,14 @@
 
 ---
 
+> 🖨️ **Ready to teach — everything you need, formatted to print:**
+>
+> - 📄 **[Student handout (PDF)](../units-pdf/stand-and-deliver-handout.pdf)** — print one per student
+> - 🧑‍🏫 **[Full lesson plan (PDF)](../units-pdf/stand-and-deliver-lesson-plan.pdf)** — this whole plan, print-formatted
+> - 📊 **Rubric (PDF):** [Communication & Presentation](../../toolkit/rubrics-pdf/05-communication.pdf)
+>
+> *(The student handout and the rubric are also embedded in this document below.)*
+
 ## Why this unit
 
 This is one of the missing reps from the keynote. Our students freeze when asked to stand and explain something — and we call it stage fright, but it isn't. It's that they were never given the practice. They've presented maybe a handful of times in their whole school career, almost always with a slide deck doing the talking for them. The note card itself feels foreign: a few cues, look up, explain it in your own words. That craft is exactly what's gone. This routine fixes it the only way it can be fixed — through volume, in low stakes, every single week. And it trains the one thing AI can never do for them: stand in front of another human and explain their own work and their own reasoning out loud.

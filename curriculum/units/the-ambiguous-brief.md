@@ -9,6 +9,14 @@
 
 ---
 
+> 🖨️ **Ready to teach — everything you need, formatted to print:**
+>
+> - 📄 **[Student handout (PDF)](../units-pdf/the-ambiguous-brief-handout.pdf)** — print one per student
+> - 🧑‍🏫 **[Full lesson plan (PDF)](../units-pdf/the-ambiguous-brief-lesson-plan.pdf)** — this whole plan, print-formatted
+> - 📊 **Rubric (PDF):** [Working with Ambiguity](../../toolkit/rubrics-pdf/03-ambiguity.pdf) · [Decomposition](../../toolkit/rubrics-pdf/01-decomposition.pdf)
+>
+> *(The student handout and the rubric are also embedded in this document below.)*
+
 ## Why this unit
 
 This is the silence from the keynote. When a real project lands in the workforce, nobody hands you a rubric — they hand you a thin brief and expect you to ask the questions that turn it into a plan. Our students have been trained to wait quietly and panic the night before. This unit makes asking questions *early* the assignment itself, and builds the muscle of turning an open prompt into ordered, executable steps. It is the single highest-leverage unit in the set, because Working with Ambiguity and Decomposition sit underneath everything else.

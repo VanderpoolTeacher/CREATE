@@ -9,6 +9,14 @@
 
 ---
 
+> 🖨️ **Ready to teach — everything you need, formatted to print:**
+>
+> - 📄 **[Student handout (PDF)](../units-pdf/many-plates-spinning-handout.pdf)** — print one per student
+> - 🧑‍🏫 **[Full lesson plan (PDF)](../units-pdf/many-plates-spinning-lesson-plan.pdf)** — this whole plan, print-formatted
+> - 📊 **Rubric (PDF):** [Work & Time Organization](../../toolkit/rubrics-pdf/02-organization.pdf)
+>
+> *(The student handout and the rubric are also embedded in this document below.)*
+
 ## Why this unit
 
 This is the cliff from the keynote. Real work is never one assignment at a time — it's three or four projects with deadlines that collide, shift, and overlap. But school has only ever handed our students one thing at a time, neatly queued: finish this, then we'll give you the next thing. So they've never had to hold two open projects in their head, protect time for both, or decide what gives when a deadline moves. And next week they can't even find the file they made today — it's an "untitled" document somewhere on a desktop. This unit puts two real projects in the air at once and makes the *management* of them — the calendar, the task list, the named folder — the actual work. Work & Time Organization is the muscle that keeps everything else from falling on the floor.

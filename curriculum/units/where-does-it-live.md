@@ -9,6 +9,14 @@
 
 ---
 
+> 🖨️ **Ready to teach — everything you need, formatted to print:**
+>
+> - 📄 **[Student handout (PDF)](../units-pdf/where-does-it-live-handout.pdf)** — print one per student
+> - 🧑‍🏫 **[Full lesson plan (PDF)](../units-pdf/where-does-it-live-lesson-plan.pdf)** — this whole plan, print-formatted
+> - 📊 **Rubric (PDF):** [Digital & Systems Fluency](../../toolkit/rubrics-pdf/06-digital.pdf)
+>
+> *(The student handout and the rubric are also embedded in this document below.)*
+
 ## Why this unit
 
 Here's the line from the keynote that stings: our students are excellent *users* of technology and terrible *understanders* of it. Ask a student what's inside a cell phone, or to organize a folder structure for their six or seven classes, and watch the confidence drain out of the room. They can open the app; they cannot say where the file went. That used to be a "nice to have." It is not anymore. The student who doesn't know where a file lives on their own machine is now the *least* equipped person in the room for the single tool redefining their future — because every interaction with AI is a question of *what did I just hand over, and where did it go?* AI moved this cliff from "nice to have" to the floor. This unit builds the floor.

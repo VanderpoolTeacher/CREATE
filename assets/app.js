@@ -234,8 +234,11 @@
       var card = el("article", "unit");
       var panelId = "unit-panel-" + i;
       var builds = u.builds.map(function (b) { return "<span>" + esc(b) + "</span>"; }).join("");
-      var planLink = u.plan
-        ? "<p class='unit__plan'><a href='" + esc(u.plan) + "' target='_blank' rel='noopener'>Open the full lesson plan &rarr;</a></p>"
+      var unitLinks = [];
+      if (u.plan) unitLinks.push("<a href='" + esc(u.plan) + "' target='_blank' rel='noopener'>Full lesson plan &rarr;</a>");
+      if (u.handout) unitLinks.push("<a href='" + esc(u.handout) + "' target='_blank' rel='noopener'>Student handout (PDF)</a>");
+      var planLink = unitLinks.length
+        ? "<p class='unit__plan'>" + unitLinks.join("<span class='unit__plan-sep'>·</span>") + "</p>"
         : "";
       card.innerHTML =
         "<div class='unit__body'>" +

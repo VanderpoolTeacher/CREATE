@@ -384,6 +384,7 @@ window.CREATE_CONTENT = {
       releasing:
         "In the first round, the teacher models a few good clarifying questions to prime the pump. In the second round, students generate questions independently but review them in pairs before the client meeting. By the third iteration, students submit a clarifying-questions document cold — no prompts, no pairs — and self-assess against a checklist they helped write.",
       plan: "https://github.com/VanderpoolTeacher/CREATE/blob/main/curriculum/units/the-ambiguous-brief.md",
+      handout: "curriculum/units-pdf/the-ambiguous-brief-handout.pdf",
     },
     {
       name: "Many Plates Spinning",
@@ -395,6 +396,7 @@ window.CREATE_CONTENT = {
       releasing:
         "Week one, the teacher walks through a sample calendar block and folder structure. Week two, students build their own structure from scratch but check in against a peer's for a five-minute comparison. By week three, no templates are provided; students are expected to set up their own systems from day one and flag conflicts to the teacher before they become crises.",
       plan: "https://github.com/VanderpoolTeacher/CREATE/blob/main/curriculum/units/many-plates-spinning.md",
+      handout: "curriculum/units-pdf/many-plates-spinning-handout.pdf",
     },
     {
       name: "Nobody Assigned This",
@@ -406,6 +408,7 @@ window.CREATE_CONTENT = {
       releasing:
         "In the first iteration, the teacher offers a menu of problems and models the investigate-before-asking norm. In the second, students pick from a broad category and run the norm independently. By the third, students spot their own problem cold, investigate, propose options, and take the first step with no prompting — then self-assess. The end state: the student begins before being told.",
       plan: "https://github.com/VanderpoolTeacher/CREATE/blob/main/curriculum/units/nobody-assigned-this.md",
+      handout: "curriculum/units-pdf/nobody-assigned-this-handout.pdf",
     },
     {
       name: "Stand & Deliver",
@@ -417,6 +420,7 @@ window.CREATE_CONTENT = {
       releasing:
         "Early rounds include a planning scaffold — an index card template with labeled sections (hook, main point, example, close). After a few rounds, the template is removed and students design their own note card structure. By the end of the term, the topic is assigned Monday and students present Friday with no intermediate check-in from the teacher — planning, prep, and delivery are fully student-owned.",
       plan: "https://github.com/VanderpoolTeacher/CREATE/blob/main/curriculum/units/stand-and-deliver.md",
+      handout: "curriculum/units-pdf/stand-and-deliver-handout.pdf",
     },
     {
       name: "Where Does It Live?",
@@ -428,6 +432,7 @@ window.CREATE_CONTENT = {
       releasing:
         "The first audit is done with a guided worksheet and whole-class debrief. The second audit (a different tool or workflow) uses only a blank diagram template. By the final project, students choose the tool, design their own diagram, and write their own reflection questions — demonstrating that the habit of asking \"where does it live?\" has become automatic, not assigned.",
       plan: "https://github.com/VanderpoolTeacher/CREATE/blob/main/curriculum/units/where-does-it-live.md",
+      handout: "curriculum/units-pdf/where-does-it-live-handout.pdf",
     },
   ],
 };

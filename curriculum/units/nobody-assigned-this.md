@@ -9,6 +9,14 @@
 
 ---
 
+> 🖨️ **Ready to teach — everything you need, formatted to print:**
+>
+> - 📄 **[Student handout (PDF)](../units-pdf/nobody-assigned-this-handout.pdf)** — print one per student
+> - 🧑‍🏫 **[Full lesson plan (PDF)](../units-pdf/nobody-assigned-this-lesson-plan.pdf)** — this whole plan, print-formatted
+> - 📊 **Rubric (PDF):** [Initiative / Self-Starting](../../toolkit/rubrics-pdf/04-initiative.pdf)
+>
+> *(The student handout and the rubric are also embedded in this document below.)*
+
 ## Why this unit
 
 This is the question from the keynote that the workforce asks most and sees least. Maya can finish anything you start her on — the problem her boss has is whether she can *start*. Can she look at a problem nobody assigned her and decide to move on it? Our students are exceptionally good at waiting for the next instruction, because we have trained them to: the more we break work into tiny validated steps, the more we teach task-dependency. This unit deliberately does the opposite. It withholds the next step and makes the student generate it. It builds the muscle of spotting a real, unassigned problem, investigating it before raising a hand, and taking a small first action on your own. Initiative sits underneath every other durable skill — you cannot decompose, adapt, or persist on work you never began.

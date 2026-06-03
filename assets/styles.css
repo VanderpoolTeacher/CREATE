@@ -405,6 +405,7 @@ a:hover { color: var(--teal-700); }
 .unit__plan { margin: 1.1rem 0 0; padding-top: .9rem; border-top: 1px solid var(--line, #e6e1d6); }
 .unit__plan a { font-weight: 600; font-size: .9rem; color: var(--teal); }
 .unit__plan a:hover { color: var(--teal-700); }
+.unit__plan-sep { margin: 0 .5rem; color: var(--slate); }
 
 /* ============ CTA ============ */
 .cta { background: var(--ink); color: #fff; padding: clamp(3rem, 7vw, 5rem) 0; position: relative; overflow: hidden; }
