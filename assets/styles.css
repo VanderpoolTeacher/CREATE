@@ -175,13 +175,13 @@ a:hover { color: var(--teal-700); }
   -webkit-mask-image: linear-gradient(to bottom, #000 0%, transparent 70%);
           mask-image: linear-gradient(to bottom, #000 0%, transparent 70%);
 }
-.hero__inner { position: relative; padding: clamp(3.5rem, 9vw, 7rem) 0 clamp(3rem, 7vw, 5.5rem); }
+.hero__inner { position: relative; padding-top: clamp(3.5rem, 9vw, 7rem); padding-bottom: clamp(3rem, 7vw, 5.5rem); }
 .eyebrow {
   display: inline-block; text-transform: uppercase; letter-spacing: .14em; font-size: .78rem;
   font-weight: 700; color: var(--amber); margin: 0 0 1.1rem;
   border: 1px solid rgba(137,152,120,.5); border-radius: 999px; padding: .35rem .85rem;
 }
-.hero__title { color: #fff; font-size: clamp(3rem, 11vw, 6.5rem); font-weight: 700; line-height: .95; letter-spacing: -.02em; }
+.hero__title { color: #fff; font-size: clamp(2.2rem, 7vw, 5rem); font-weight: 700; line-height: 1.02; letter-spacing: -.02em; overflow-wrap: break-word; }
 .hero__subtitle { font-family: var(--font-display); font-weight: 500; font-style: italic; color: var(--amber-100); font-size: clamp(1.25rem, 3.5vw, 1.9rem); margin: .9rem 0 1.4rem; }
 .hero__thesis { max-width: 46ch; color: #E4E6C3; font-size: clamp(1.05rem, 2.4vw, 1.2rem); }
 .hero__actions { display: flex; flex-wrap: wrap; gap: .9rem; margin-top: 1.8rem; }
