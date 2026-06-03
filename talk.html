@@ -8,7 +8,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
   <!-- reveal.js core + base theme (we override below) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css" />
@@ -16,21 +16,22 @@
 
   <style>
     :root {
-      --ink:      #16202b;
-      --ink-soft: #33414f;
-      --slate:    #5a6b7a;
-      --paper:    #f7f5ef;
-      --paper-2:  #fbfaf6;
-      --teal:     #155e63;
-      --teal-700: #0f4a4e;
-      --teal-100: #e2efee;
-      --clay:     #c2562f;
-      --clay-600: #a8451f;
-      --amber:    #e8a33d;
-      --amber-100:#fbeccd;
-      --good:     #2f7d5b;
+      /* Anthony Wayne Innovation & Design — brand tokens */
+      --ink:      #1F3A93;
+      --ink-soft: #1A1A1A;
+      --slate:    #555555;
+      --paper:    #F5F7FB;
+      --paper-2:  #FFFFFF;
+      --teal:     #1F3A93;
+      --teal-700: #16306C;
+      --teal-100: #E7EEFB;
+      --clay:     #EA580C;
+      --clay-600: #C2460A;
+      --amber:    #EA580C;
+      --amber-100:#FFF1E9;
+      --good:     #1F3A93;
       --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-      --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+      --font-display: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     }
 
     /* ---- Override reveal theme to match the hub ---- */
@@ -38,7 +39,7 @@
     .reveal {
       font-family: var(--font-sans);
       font-size: 38px;
-      color: var(--ink);
+      color: var(--ink-soft);
       font-weight: 400;
     }
     .reveal .slides { text-align: left; }
@@ -143,16 +144,16 @@
     /* ---- Title slide ---- */
     #title-slide {
       background:
-        radial-gradient(900px 520px at 80% -10%, rgba(232,163,61,.20), transparent 60%),
-        radial-gradient(760px 640px at -8% 115%, rgba(21,94,99,.55), transparent 55%),
-        linear-gradient(160deg, #16202b 0%, #1b2c33 60%, #14242a 100%);
+        radial-gradient(900px 520px at 80% -10%, rgba(234,88,12,.18), transparent 60%),
+        radial-gradient(760px 640px at -8% 115%, rgba(22,48,108,.65), transparent 55%),
+        linear-gradient(160deg, #1F3A93 0%, #1b347f 60%, #16306C 100%);
       color: #fff;
       padding: 2.5% 5%;
       box-shadow: none;
     }
     #title-slide .eyebrow {
       color: var(--amber);
-      border: 1px solid rgba(232,163,61,.4);
+      border: 1px solid rgba(234,88,12,.45);
       border-radius: 999px;
       padding: .35em .85em;
     }
@@ -202,7 +203,7 @@
       font-size: .7em;
     }
     .tier b { display: block; font-family: var(--font-display); color: var(--ink); margin-bottom: .2em; font-size: 1.15em; }
-    .tier.is-focus { background: var(--amber-100); border-color: var(--amber); box-shadow: 0 8px 28px rgba(232,163,61,.25); }
+    .tier.is-focus { background: var(--amber-100); border-color: var(--amber); box-shadow: 0 8px 28px rgba(234,88,12,.22); }
     .tier.is-focus b { color: var(--clay-600); }
 
     /* AI motif (slide 15) */
@@ -268,7 +269,7 @@
     .reveal.overview .hub-link { display: none; }
 
     /* speaker-note marker for [YOUR STORY] prompts */
-    aside.notes .your-story { color: #c2562f; font-style: italic; }
+    aside.notes .your-story { color: #EA580C; font-style: italic; }
 
     @media (max-width: 700px) {
       .tiers { flex-direction: column; }
@@ -283,7 +284,7 @@
     <div class="slides">
 
       <!-- ===== Slide 1 — Rebuilding the Foundations for Student Success ===== -->
-      <section id="title-slide" data-background-color="#16202b">
+      <section id="title-slide" data-background-color="#1F3A93">
         <span class="eyebrow">A keynote for K-12 educators</span>
         <h1>Rebuilding the Foundations<br />for Student Success</h1>
         <p class="sub">What Students Need After the Last Checklist</p>
@@ -577,7 +578,7 @@
       </section>
 
       <!-- ===== Slide 28 — Maya Asks the First Question ===== -->
-      <section data-background-color="#16202b">
+      <section data-background-color="#1F3A93">
         <span class="eyebrow" style="color:var(--amber);">The ask</span>
         <p class="quote-big" style="color:#fff;">Imagine Maya raising her hand on day one.</p>
         <div class="ask">
