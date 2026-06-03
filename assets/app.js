@@ -102,7 +102,18 @@
       b.setAttribute("aria-selected", String(on));
       b.setAttribute("tabindex", on ? "0" : "-1");
     });
+    updateRubricDownload(id);
     renderRubricTable();
+  }
+
+  function updateRubricDownload(id) {
+    var dl = document.getElementById("rubricDownload");
+    if (!dl) return;
+    var c = C.clusters.filter(function (x) { return x.id === id; })[0];
+    if (!c) return;
+    var n = ("0" + c.num).slice(-2);
+    dl.setAttribute("href", "toolkit/rubrics-pdf/" + n + "-" + c.id + ".pdf");
+    dl.innerHTML = "<span aria-hidden='true'>↓</span> Download the " + esc(c.name) + " rubric (PDF)";
   }
 
   function renderRubricTable() {
@@ -291,6 +302,7 @@
 
     renderFramework();
     renderRubricTabs();
+    updateRubricDownload(rubricState.active);
     renderRubricTable();
     bindTargetToggle();
     renderDecompFramework();

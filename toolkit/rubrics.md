@@ -2,6 +2,8 @@
 
 **How to use these:** These are competency-based rubrics — apply them to assignments you already give, scoring the skill alongside the content without adding new curriculum. **Proficient** means the competency is demonstrated: the student does it reliably and independently; that is the target. Advanced means the student extends the skill unprompted — anticipates problems, helps peers, or transfers the skill to a new situation.
 
+> 🖨️ **Printable PDFs** (one page each, landscape): [**all six rubrics**](rubrics-pdf/durable-skills-rubrics.pdf) · [Decomposition](rubrics-pdf/01-decomposition.pdf) · [Work & Time Organization](rubrics-pdf/02-organization.pdf) · [Working with Ambiguity](rubrics-pdf/03-ambiguity.pdf) · [Initiative / Self-Starting](rubrics-pdf/04-initiative.pdf) · [Communication & Presentation](rubrics-pdf/05-communication.pdf) · [Digital & Systems Fluency](rubrics-pdf/06-digital.pdf)
+
 ---
 
 ## 1. Decomposition

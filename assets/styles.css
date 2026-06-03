@@ -278,6 +278,16 @@ a:hover { color: var(--teal-700); }
 .rubric__toggle { display: inline-flex; align-items: center; gap: .55rem; font-size: .92rem; color: var(--ink-soft); cursor: pointer; user-select: none; }
 .rubric__toggle input { width: 18px; height: 18px; accent-color: var(--clay); cursor: pointer; }
 
+.rubric__downloads { display: flex; flex-wrap: wrap; gap: .6rem; padding: 0 1.2rem 1.2rem; }
+.rubric__dl {
+  display: inline-flex; align-items: center; gap: .45rem; font-weight: 600; font-size: .9rem;
+  padding: .55rem 1rem; border-radius: var(--r-md); background: var(--teal); color: #fff;
+  border: 1px solid var(--teal); transition: background .15s, color .15s, transform .15s var(--ease);
+}
+.rubric__dl:hover { background: var(--teal-700); color: #fff; transform: translateY(-1px); }
+.rubric__dl--ghost { background: #fff; color: var(--teal-700); }
+.rubric__dl--ghost:hover { background: var(--teal-100); color: var(--teal-700); }
+
 .rubric__tablewrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .rubric__table { border-collapse: collapse; width: 100%; min-width: 760px; font-size: .92rem; }
 .rubric__table th, .rubric__table td { text-align: left; vertical-align: top; padding: .85rem .9rem; border-bottom: 1px solid var(--line); }
