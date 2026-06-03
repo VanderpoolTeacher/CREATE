@@ -288,7 +288,7 @@ a:hover { color: var(--teal-700); }
   background: var(--paper); font-weight: 600; color: var(--ink); width: 24%; min-width: 200px;
   position: sticky; left: 0; z-index: 1; border-right: 1px solid var(--line);
 }
-.rubric__table thead .col-can { position: sticky; left: 0; z-index: 3; background: var(--ink); }
+.rubric__table thead .col-can { position: sticky; left: 0; z-index: 3; background: var(--ink); color: #fff; }
 .rubric__table tbody tr:hover .col-can { background: #efece3; }
 .rubric__table td.level { cursor: pointer; transition: background .15s, box-shadow .15s; color: var(--ink-soft); }
 .rubric__table td.level:hover { background: var(--teal-100); }
@@ -405,6 +405,9 @@ a:hover { color: var(--teal-700); }
 .cta__inner { margin: 0 auto; }
 .cta__title { color: #fff; font-size: clamp(1.8rem, 4.5vw, 2.6rem); }
 .cta__text { color: #d2dade; font-size: 1.1rem; margin: 1rem auto 1.8rem; max-width: 52ch; }
+.cta__qr { margin-top: 2rem; display: flex; flex-direction: column; align-items: center; gap: .7rem; }
+.cta__qr img { background: #fff; padding: 10px; border-radius: 12px; box-shadow: var(--shadow-md); }
+.cta__qr span { color: #d2dade; font-size: .9rem; letter-spacing: .01em; }
 
 /* ============ FOOTER ============ */
 .footer { background: #11191f; color: #aebac1; padding: 2.5rem 0; }

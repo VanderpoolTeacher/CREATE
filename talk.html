@@ -116,14 +116,15 @@
       color: var(--clay-600);
       font-size: 1.1em;
     }
-    .pill-list { list-style: none; margin: .3em 0 0; padding: 0; }
-    .pill-list li {
+    .reveal .pill-list { list-style: none; margin: .3em 0 0; padding: 0; }
+    .reveal .pill-list li {
+      list-style: none;
       position: relative;
       padding-left: 1.2em;
       margin: .55em 0;
       color: var(--ink-soft);
     }
-    .pill-list li::before {
+    .reveal .pill-list li::before {
       content: "";
       position: absolute; left: 0; top: .55em;
       width: .5em; height: .5em; border-radius: 3px;
@@ -239,6 +240,11 @@
       font-size: .72em; color: var(--ink-soft);
     }
     .ask b { color: var(--clay-600); }
+    .qr {
+      width: 200px; height: 200px; display: block; margin: .6em 0 .3em;
+      background: #fff; padding: 12px; border-radius: 12px;
+      box-shadow: 0 6px 24px rgba(0,0,0,.35);
+    }
 
     /* ---- Toolkit Hub return link ---- */
     .hub-link {
@@ -578,7 +584,8 @@
           <b>One assignment. One weave-in move. This semester.</b><br />
           The framework, rubrics, and full strategy menu are in the toolkit hub.
         </div>
-        <p class="muted" style="color:#c6d0d6; margin-top:.6em;">Take it all home: the Toolkit Hub (link in the corner).</p>
+        <img class="qr" src="assets/qr-site.svg" alt="QR code linking to the toolkit hub at vanderpoolteacher.github.io/CREATE" />
+        <p class="muted" style="color:#c6d0d6; margin-top:.2em;">Scan to take it all home &mdash; <strong style="color:#fff;">vanderpoolteacher.github.io/CREATE</strong></p>
         <aside class="notes">
           I'll leave you with Maya one last time. Imagine the version of Maya who, on the first day of her first real job, gets handed a vague, messy problem — and instead of freezing, she breaks it into steps, opens the right folder, and asks her manager the two sharp questions that save the whole project a week. That Maya isn't smarter than the one we met at the start. She just got the reps — from you, here, where it was safe to practice. Here's my ask, and it's a small one: pick <em>one</em> assignment you already give. Add <em>one</em> weave-in move from this toolkit. That's it. One assignment, one move, this semester. The framework, the rubrics, and the full strategy menu are all right here for you to take. Thank you — let's teach the game that doesn't end. (Alt landing you used live: "Let's go teach these kids how to play — beyond the school year.")
           <p class="your-story">YOUR STORY: a student who, given the chance to practice, surprised you by starting on their own. End on that face.</p>
