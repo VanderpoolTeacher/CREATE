@@ -2,7 +2,7 @@
 
 **Audience:** K-12 educators and administrators
 **Format:** A lean resource walkthrough — the slides hold the *what* (the toolkit); the presenter brings the *why* and the stories live, in their own voice.
-**Slides:** 9 · **Time:** flexible (~15–30 min depending on how much you talk around each slide)
+**Slides:** 8 · **Time:** flexible (~15–30 min depending on how much you talk around each slide)
 
 > This deck is a scaffold, not a script. Each slide is sparse on purpose. The notes below are **talking-point prompts** — cues to riff from your own experience, not lines to read.
 
@@ -36,10 +36,6 @@
 **On slide:** **4** — Turnkey Units · "Five ready-to-teach units — lesson plans, printable student handouts, and rubrics. For when there's room to go further."
 **Talk around:** Optional path — weave-in is primary. But if a teacher has room, these are pick-up-and-teach: sessions, timing, handouts, look-fors, gradual release.
 
-### Slide 8 — Where to get it all
+### Slide 8 — Where to get it all (close)
 **On slide:** "It's all on one page." · QR code · vanderpoolteacher.github.io/CREATE.
-**Talk around:** Framework, rubrics, weave-in moves, and the units — plus this deck — all live there. Scan and it's yours.
-
-### Slide 9 — The ask
-**On slide:** "Pick one assignment. Weave in **one** move. This semester." · *One assignment. One move.*
-**Talk around:** Close in your own words — small, doable, this semester. The reps add up. Thank them.
+**Talk around:** Framework, rubrics, weave-in moves, and the units — plus this deck — all live there. Scan and it's yours. Close in your own words with the small ask: *pick one assignment, weave in one move, this semester* — the reps add up. Thank them.
