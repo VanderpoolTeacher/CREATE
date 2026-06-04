@@ -7,6 +7,7 @@ window.CREATE_CONTENT = {
     {
       id: "decomposition",
       num: 1,
+      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="m3 13 9 5 9-5"/></svg>`,
       name: "Decomposition",
       definition:
         "Taking a big, ambiguous goal and breaking it into ordered, doable steps — without being handed a checklist first.",
@@ -16,6 +17,7 @@ window.CREATE_CONTENT = {
     {
       id: "organization",
       num: 2,
+      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7.5V12l3 2"/></svg>`,
       name: "Work & Time Organization",
       definition:
         "Managing tasks and deadlines across multiple concurrent projects; using a calendar to define and protect work time; keeping files organized so anything can be found again.",
@@ -25,6 +27,7 @@ window.CREATE_CONTENT = {
     {
       id: "ambiguity",
       num: 3,
+      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.3 9.3a2.8 2.8 0 1 1 4 2.5c-.9.5-1.3 1-1.3 2"/><path d="M12 17h.01"/></svg>`,
       name: "Working with Ambiguity",
       definition:
         "Asking clarifying questions early in a project and adapting when requirements shift as more becomes known.",
@@ -34,6 +37,7 @@ window.CREATE_CONTENT = {
     {
       id: "initiative",
       num: 4,
+      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4.5 13.5H11l-1 8.5L18.5 10H12l1-8Z"/></svg>`,
       name: "Initiative / Self-Starting",
       definition:
         "Getting going without being prompted; investigating a problem independently and proposing a next step before stopping or waiting on someone else. This is often the hardest shift.",
@@ -42,6 +46,7 @@ window.CREATE_CONTENT = {
     {
       id: "communication",
       num: 5,
+      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.5 7.2L4 21l1.8-5.5A8 8 0 1 1 21 12Z"/></svg>`,
       name: "Communication & Presentation",
       definition:
         "Speaking about your own work in front of a group — explaining what you did, why, and what you learned.",
@@ -51,6 +56,7 @@ window.CREATE_CONTENT = {
     {
       id: "digital",
       num: 6,
+      icon: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7Z"/></svg>`,
       name: "Digital & Systems Fluency",
       definition:
         "Comfort with how software actually works and where information lives — understanding abstraction at a basic level. This skill is increasingly urgent as AI tools become part of everyday work.",

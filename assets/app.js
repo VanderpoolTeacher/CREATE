@@ -45,7 +45,7 @@
         '<h3 style="margin:0">' +
         '<button class="card__btn" type="button" aria-expanded="false" aria-controls="' + panelId + '">' +
           '<span class="card__top">' +
-            '<span class="card__num" aria-hidden="true">' + c.num + "</span>" +
+            '<span class="card__num" aria-hidden="true">' + (c.icon || c.num) + "</span>" +
             '<span class="card__heading"><span class="card__name">' + esc(c.name) + "</span></span>" +
             chevron +
           "</span>" +

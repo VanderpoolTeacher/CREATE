@@ -211,7 +211,9 @@ a:hover { color: var(--teal-700); }
 .section { padding: clamp(3.5rem, 8vw, 6rem) 0; }
 .section--alt { background: var(--paper-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .section__head { max-width: 760px; margin-bottom: 2.5rem; }
-.kicker { text-transform: uppercase; letter-spacing: .12em; font-size: .8rem; font-weight: 700; color: var(--clay); margin: 0 0 .6rem; }
+.kicker { display: flex; align-items: center; gap: .45rem; text-transform: uppercase; letter-spacing: .12em; font-size: .8rem; font-weight: 700; color: var(--clay); margin: 0 0 .6rem; }
+.kicker__icon { width: 16px; height: 16px; flex: 0 0 auto; }
+.card__num svg { width: 20px; height: 20px; }
 .section h2 { font-size: clamp(1.9rem, 4.5vw, 2.9rem); }
 .section__lede { font-size: clamp(1.05rem, 2vw, 1.18rem); color: var(--ink-soft); margin-top: .9rem; }
 .section__note {
