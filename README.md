@@ -21,6 +21,7 @@ A polished, interactive hub: the six skills as expandable cards, the competency 
 | **Grade these skills on work you already assign** | [`toolkit/rubrics.md`](toolkit/rubrics.md) |
 | **Give the talk yourself** | [`presentation/outline.md`](presentation/outline.md) + open [`talk.html`](talk.html) in a browser |
 | **Give it *to students* instead** | open [`student-talk.html`](student-talk.html) — the same argument, rewritten for the people it is about |
+| **Hand students one page they keep** | [`cheat-sheet.html`](cheat-sheet.html) — every move on a single printable sheet |
 | **Run a full, dedicated unit** | [`curriculum/`](curriculum/README.md) — five turnkey lesson plans |
 | **Just browse it all, nicely formatted** | the [interactive site](https://vanderpoolteacher.github.io/CREATE/) |
 
@@ -36,6 +37,7 @@ CREATE/
 ├── index.html          ← the interactive hub (the live site)
 ├── talk.html           ← the talk as a reveal.js slide deck
 ├── student-talk.html   ← the student-facing talk (18 slides, self-contained)
+├── cheat-sheet.html    ← the student one-pager, print-optimised
 ├── assets/             ← styles + content + behavior for the hub
 └── docs/superpowers/   ← the design spec and build plan behind this project
 ```
@@ -69,6 +71,8 @@ Five **turnkey, pick-up-and-teach units** — one for each durable skill. Each i
 
 - **`student-talk.html`** *(repo root)* — the [student-facing talk](student-talk.html). Same argument, addressed to students rather than about them: practical moves for organizing work and time, and what accountability actually means once attendance stops being the measure. Grounded in 2026 employer-survey data on entry-level readiness. 18 slides, self-contained, arrow keys or click to advance.
 - *Note:* the full word-for-word **speaker script** (with delivery cues and personal stories) is kept as a private working document and is intentionally **not** published in this repo.
+
+- **`cheat-sheet.html`** *(repo root)* — the [student one-pager](cheat-sheet.html). Every move from the talk condensed to a single sheet with a print stylesheet, so it comes off the printer as one page. The last slide of the talk carries a QR code to the deck and the link to this.
 
 ### 4. The Interactive Hub — `index.html` + `assets/`
 

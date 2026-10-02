@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>After the Checklist — one-page cheat sheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=DM+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    --ground:#F4F6F5; --panel:#FFFFFF; --ink:#16202A; --body:#3C4A56; --mute:#6E7D89;
+    --rule:#D2DBE0; --grid:#E6EBED; --pen:#1F4ED8; --pen-soft:#E6ECFD; --mark:#D8F26B; --mark-ink:#2C3A14;
+    --display:"Familjen Grotesk","Helvetica Neue",Arial,sans-serif;
+    --serif:"Newsreader",Georgia,"Times New Roman",serif;
+    --mono:"DM Mono",ui-monospace,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;color:var(--ink);font-family:var(--serif);
+    background:var(--ground);
+    background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+    background-size:26px 26px;
+    line-height:1.45;
+  }
+  .sheet{
+    max-width:60rem;margin:0 auto;
+    padding-inline:18px;padding-block:clamp(1.8rem,4vw,3rem) 3rem;
+    display:flex;flex-direction:column;gap:1.6rem;
+  }
+
+  header{display:flex;justify-content:space-between;align-items:flex-end;gap:1.5rem;flex-wrap:wrap;
+         border-bottom:2px solid var(--ink);padding-bottom:.9rem}
+  h1{font-family:var(--display);font-weight:700;font-size:clamp(1.7rem,4vw,2.5rem);letter-spacing:-.025em;
+     line-height:1;margin:0}
+  .sub{font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--pen);margin:.5rem 0 0}
+  .who{font-family:var(--mono);font-size:.66rem;color:var(--mute);text-align:right;line-height:1.7}
+
+  .thesis{
+    background:var(--mark);color:var(--mark-ink);
+    padding:.75rem 1rem;border-radius:3px;
+    font-size:clamp(.95rem,1.6vw,1.12rem);line-height:1.4;
+  }
+  .thesis b{font-weight:500}
+
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem 2.2rem}
+  section{break-inside:avoid}
+  h2{font-family:var(--display);font-weight:700;font-size:1.02rem;letter-spacing:.01em;margin:0 0 .15rem;
+     text-transform:uppercase;letter-spacing:.06em}
+  .note{font-family:var(--mono);font-size:.64rem;color:var(--mute);margin:0 0 .75rem;line-height:1.5}
+
+  dl{margin:0;display:flex;flex-direction:column;gap:.6rem}
+  .row{border-top:1px solid var(--rule);padding-top:.5rem}
+  dt{font-family:var(--display);font-weight:500;font-size:.93rem;line-height:1.25;color:var(--ink)}
+  dd{margin:.18rem 0 0;font-size:.82rem;line-height:1.4;color:var(--body)}
+  dd code{font-family:var(--mono);font-size:.92em;background:var(--pen-soft);color:var(--pen);padding:.05em .25em;border-radius:2px}
+
+  .week{border:1px solid var(--rule);border-radius:3px;background:var(--panel);overflow:hidden;margin-top:.2rem}
+  table{border-collapse:collapse;width:100%;font-family:var(--mono);font-size:.62rem;font-variant-numeric:tabular-nums}
+  th{text-align:left;font-weight:500;color:var(--mute);text-transform:uppercase;letter-spacing:.09em;font-size:.56rem;
+     padding:.4rem .45rem;border-bottom:1px solid var(--rule)}
+  td{padding:.32rem .45rem;border-bottom:1px solid var(--rule);color:var(--body)}
+  tr:last-child td{border-bottom:0}
+  td b{display:inline-block;background:var(--pen-soft);color:var(--pen);font-weight:500;padding:.03rem .25rem;border-radius:2px}
+
+  .days{display:flex;flex-direction:column}
+  .day{display:grid;grid-template-columns:4.6rem 1fr;gap:.6rem;padding:.38rem 0;border-top:1px solid var(--rule);align-items:baseline}
+  .day:last-child{border-bottom:1px solid var(--rule)}
+  .day .d{font-family:var(--mono);font-size:.6rem;letter-spacing:.09em;text-transform:uppercase;color:var(--pen)}
+  .day .k{font-size:.84rem;color:var(--ink);line-height:1.35;margin:0}
+
+  footer{border-top:1px solid var(--rule);padding-top:.8rem;display:flex;justify-content:space-between;
+         gap:1.2rem;flex-wrap:wrap;font-family:var(--mono);font-size:.64rem;color:var(--mute);line-height:1.7}
+  footer a{color:var(--pen)}
+
+  @media (max-width:720px){ .cols{grid-template-columns:1fr} header{align-items:flex-start} .who{text-align:left} }
+
+  @media print{
+    @page{margin:12mm}
+    body{background:#fff;background-image:none;color:#000;font-size:9.6pt}
+    .sheet{max-width:none;padding:0;gap:.9rem}
+    .cols{gap:.9rem 1.5rem}
+    .thesis{background:#fff;border:1.5pt solid #000;color:#000;padding:.4rem .6rem}
+    td b{background:#eee;color:#000}
+    dd code{background:#eee;color:#000}
+    footer,header{border-color:#000}
+    a{color:#000;text-decoration:none}
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <header>
+    <div>
+      <h1>After the Checklist</h1>
+      <p class="sub">One page &middot; keep it where you work</p>
+    </div>
+    <div class="who">
+      Michael Vanderpool<br>
+      vanderpoolteacher.github.io/CREATE
+    </div>
+  </header>
+
+  <p class="thesis">School hands you boxes. Work hands you an outcome. <b>Figuring out the steps is the job now</b> &mdash; and accountability is not perfection, it is being <b>predictable</b>.</p>
+
+  <div class="cols">
+
+    <section>
+      <h2>Organize the work</h2>
+      <p class="note">So future-you can find things and pick up where you stopped</p>
+      <dl>
+        <div class="row">
+          <dt>Break it down before you start</dt>
+          <dd>Five to ten ugly lines of steps, written before you touch the work. Most procrastination is not knowing the first move.</dd>
+        </div>
+        <div class="row">
+          <dt>Name files findably</dt>
+          <dd><code>project_what-it-is_v2</code>, not <code>image9990.png</code>. Dates as <code>2026-10-02</code> so they sort. "I did it, I just can't find it" reads as not done.</dd>
+        </div>
+        <div class="row">
+          <dt>Decide where it lives, once</dt>
+          <dd>One cloud folder per class. Inside it, keep what you were <em>given</em> separate from what you <em>made</em>. That split prevents the worst disaster.</dd>
+        </div>
+        <div class="row">
+          <dt>Lead with what the link is</dt>
+          <dd>Never paste a bare URL. Say what it goes to, then link it. An unlabeled link gets skipped, and the work inside may as well not exist.</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Organize the time</h2>
+      <p class="note">A calendar is where you decide in advance what gets to happen</p>
+      <dl>
+        <div class="row">
+          <dt>Every due date, day one</dt>
+          <dd>Syllabus week, every deadline from every class, one sitting. This is how you find the November collision in August.</dd>
+        </div>
+        <div class="row">
+          <dt>Book the work, not the deadline</dt>
+          <dd>Two or three named working blocks <em>before</em> the due date. Unbooked time goes to whoever asks for it first.</dd>
+        </div>
+        <div class="row">
+          <dt>Work backwards from the date</dt>
+          <dd>Due the 20th? Draft the 15th, feedback the 17th, revise the 18th. One scary date becomes four manageable ones.</dd>
+        </div>
+        <div class="row">
+          <dt>Protect one block a week</dt>
+          <dd>Two hours, same time, never moved, catch-up only. Everyone falls behind; few have somewhere to recover in.</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Showing up</h2>
+      <p class="note">What replaces attendance as the measure</p>
+      <dl>
+        <div class="row">
+          <dt>Be findable</dt>
+          <dd>Reply within one working day. No answer yet? Say so, and say when. Silence reads as "not doing it."</dd>
+        </div>
+        <div class="row">
+          <dt>Ask on day one, not the night before</dt>
+          <dd>Day one it makes you look engaged. The same question at 10pm the night before makes you look like you just opened it.</dd>
+        </div>
+        <div class="row">
+          <dt>Make a move before you ask</dt>
+          <dd>"I tried X, it did Y, I think the issue is Z &mdash; am I close?" beats "it doesn't work," which makes someone else do your thinking.</dd>
+        </div>
+        <div class="row">
+          <dt>Own the miss out loud</dt>
+          <dd>Three sentences, <em>before</em> the deadline: what happened, what you're doing, when it lands. No story.</dd>
+        </div>
+        <div class="row">
+          <dt>Bring the work, not the apology</dt>
+          <dd>Turn up with something on screen. A rough draft moves a project; an explanation of why there's no draft moves nothing.</dd>
+        </div>
+        <div class="row">
+          <dt>Be able to say what you did</dt>
+          <dd>The ninety-second version: what it is, why those choices, what you'd change. Work you can't explain gets credited to someone who can.</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section>
+      <h2>A week decided in advance</h2>
+      <p class="note">The blue blocks are the point &mdash; the hours nobody claimed</p>
+      <div class="week">
+        <table>
+          <thead><tr><th>Time</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th></tr></thead>
+          <tbody>
+            <tr><td>9&ndash;11</td><td>Class</td><td><b>Proj A</b></td><td>Class</td><td><b>Proj A</b></td><td>Class</td></tr>
+            <tr><td>12&ndash;2</td><td>Class</td><td>Work</td><td>Class</td><td>Work</td><td><b>Catch-up</b></td></tr>
+            <tr><td>3&ndash;5</td><td><b>Reading</b></td><td>Work</td><td><b>Proj B</b></td><td>Work</td><td>&mdash;</td></tr>
+            <tr><td>7&ndash;9</td><td>&mdash;</td><td><b>Proj B</b></td><td>&mdash;</td><td><b>Draft due</b></td><td>&mdash;</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 style="margin-top:1.3rem">Start this week</h2>
+      <p class="note">One thing a day. Each under an hour.</p>
+      <div class="days">
+        <div class="day"><div class="d">Mon</div><p class="k">Every deadline into one calendar</p></div>
+        <div class="day"><div class="d">Tue</div><p class="k">Book working blocks for your two biggest projects</p></div>
+        <div class="day"><div class="d">Wed</div><p class="k">Fix one folder &mdash; given separate from made</p></div>
+        <div class="day"><div class="d">Thu</div><p class="k">Ask one clarifying question early</p></div>
+        <div class="day"><div class="d">Fri</div><p class="k">Claim your weekly catch-up block</p></div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <span>
+      <strong>31%</strong> of business leaders say entry-level workers are unprepared &middot;
+      <strong>56%</strong> blame soft skills &middot;
+      <strong>78%</strong> expect you to build them yourself<br>
+      General Assembly 2026 &middot; Cengage Group 2026 Employability Report
+    </span>
+    <span>
+      The talk: <a href="student-talk.html">student-talk.html</a><br>
+      Full toolkit: <a href="https://vanderpoolteacher.github.io/CREATE/">vanderpoolteacher.github.io/CREATE</a>
+    </span>
+  </footer>
+
+</div>
+</body>
+</html>
