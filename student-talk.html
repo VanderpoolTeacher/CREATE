@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>After the Checklist — a talk for students</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=DM+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    --ground:#F4F6F5; --panel:#FFFFFF; --ink:#16202A; --body:#3C4A56; --mute:#6E7D89;
+    --rule:#D2DBE0; --grid:#E6EBED; --pen:#1F4ED8; --pen-soft:#E6ECFD;
+    --mark:#D8F26B; --mark-ink:#2C3A14;
+    --display:"Familjen Grotesk","Helvetica Neue",Arial,sans-serif;
+    --serif:"Newsreader",Georgia,"Times New Roman",serif;
+    --mono:"DM Mono",ui-monospace,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;color:var(--ink);font-family:var(--serif);overflow:hidden;
+    background:var(--ground);
+    background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+    background-size:34px 34px;
+  }
+
+  .slide{
+    position:absolute;inset:0;display:none;flex-direction:column;justify-content:center;
+    padding:clamp(2rem,6vw,5rem) clamp(2.2rem,8vw,7rem) clamp(3.2rem,7vw,6rem);
+  }
+  .slide.on{display:flex;animation:in .26s cubic-bezier(.2,.7,.3,1) both}
+  @keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+  @media (prefers-reduced-motion:reduce){.slide.on{animation:none}}
+
+  .eyebrow{
+    font-family:var(--mono);font-size:clamp(.62rem,.88vw,.76rem);font-weight:500;
+    letter-spacing:.15em;text-transform:uppercase;color:var(--pen);margin-bottom:1.5rem;
+  }
+  h1{font-family:var(--display);font-weight:700;letter-spacing:-.03em;line-height:1.0;
+     font-size:clamp(2.6rem,7.4vw,5.6rem);margin:0;text-wrap:balance}
+  h2{font-family:var(--display);font-weight:700;letter-spacing:-.025em;line-height:1.06;
+     font-size:clamp(1.9rem,4.8vw,3.6rem);margin:0 0 1.8rem;text-wrap:balance;max-width:19ch}
+  h2.wide{max-width:27ch}
+  .lede{font-size:clamp(1.05rem,1.75vw,1.5rem);color:var(--body);max-width:48ch;line-height:1.5;margin:0}
+  .lede + .lede{margin-top:1rem}
+  .lede b{color:var(--ink);font-weight:500}
+  mark{background:var(--mark);color:var(--mark-ink);padding:.05em .18em;border-radius:1px}
+
+  .big{font-family:var(--display);font-weight:700;font-size:clamp(2.1rem,5.6vw,4.4rem);
+       letter-spacing:-.035em;line-height:1.03;margin:0 0 1.2rem;text-wrap:balance}
+  .rule-line{height:3px;background:var(--pen);width:4.5rem;margin:0 0 1.9rem;border-radius:2px}
+
+  ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:clamp(.9rem,1.9vw,1.6rem);max-width:54ch}
+  li{position:relative;padding-left:1.5rem;font-size:clamp(1rem,1.75vw,1.5rem);line-height:1.35;color:var(--ink)}
+  li::before{content:"";position:absolute;left:0;top:.52em;width:.5rem;height:.5rem;border-radius:1px;background:var(--pen)}
+  li small{display:block;font-size:.68em;color:var(--body);margin-top:.35rem;line-height:1.45}
+  li b{font-weight:500}
+
+  /* do / why pairs */
+  .moves{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.1rem,2.6vw,2.2rem);margin-top:.4rem}
+  .mv{background:var(--panel);border:1px solid var(--rule);border-radius:3px;padding:clamp(.9rem,1.9vw,1.4rem);display:flex;flex-direction:column;gap:.5rem}
+  .mv .h{font-family:var(--display);font-weight:500;font-size:clamp(1rem,1.75vw,1.35rem);line-height:1.2;letter-spacing:-.01em}
+  .mv .d{font-size:clamp(.82rem,1.2vw,1rem);color:var(--ink);line-height:1.45}
+  .mv .w{font-size:clamp(.76rem,1.08vw,.92rem);color:var(--mute);line-height:1.45;font-family:var(--mono)}
+
+  /* stats */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(.9rem,2.2vw,2rem);margin-top:.5rem}
+  .st{display:flex;flex-direction:column;gap:.5rem;border-top:2px solid var(--rule);padding-top:.9rem}
+  .st.flag{border-top-color:var(--pen)}
+  .fig{font-family:var(--display);font-weight:700;font-size:clamp(2.2rem,6vw,4.2rem);line-height:1;
+       letter-spacing:-.04em;color:var(--pen);font-variant-numeric:tabular-nums}
+  .fig i{font-style:normal;font-size:.46em;margin-left:.05em}
+  .st p{margin:0;font-size:clamp(.8rem,1.15vw,1rem);line-height:1.45;color:var(--body)}
+  .st p b{color:var(--ink);font-weight:500}
+  .src{font-family:var(--mono);font-size:clamp(.62rem,.85vw,.74rem);color:var(--mute);margin-top:1.6rem;line-height:1.6}
+
+  /* week table */
+  .week{background:var(--panel);border:1px solid var(--rule);border-radius:3px;overflow:hidden;margin-top:.4rem}
+  table{border-collapse:collapse;width:100%;font-family:var(--mono);font-size:clamp(.62rem,.95vw,.82rem);font-variant-numeric:tabular-nums}
+  th{text-align:left;font-weight:500;color:var(--mute);letter-spacing:.1em;text-transform:uppercase;
+     font-size:.78em;padding:.6rem .7rem;border-bottom:1px solid var(--rule)}
+  td{padding:.5rem .7rem;border-bottom:1px solid var(--rule);color:var(--body)}
+  tr:last-child td{border-bottom:0}
+  td.t{color:var(--mute)}
+  td b{display:inline-block;background:var(--pen-soft);color:var(--pen);font-weight:500;padding:.08rem .35rem;border-radius:2px}
+
+  /* days */
+  .days{display:flex;flex-direction:column;gap:0;max-width:60ch}
+  .day{display:grid;grid-template-columns:6rem 1fr;gap:1rem;padding:.75rem 0;border-top:1px solid var(--rule);align-items:baseline}
+  .day:last-child{border-bottom:1px solid var(--rule)}
+  .day .d{font-family:var(--mono);font-size:clamp(.64rem,.9vw,.78rem);letter-spacing:.1em;text-transform:uppercase;color:var(--pen)}
+  .day .k{font-size:clamp(.92rem,1.5vw,1.25rem);color:var(--ink);line-height:1.3}
+  .day .k span{display:block;color:var(--body);font-size:.78em;margin-top:.2rem;line-height:1.4}
+
+  .kicker{margin-top:2rem;padding:1rem 1.3rem;background:var(--pen-soft);border-radius:3px;
+          font-size:clamp(.95rem,1.55vw,1.3rem);line-height:1.45;max-width:54ch;color:var(--ink)}
+  .kicker b{font-weight:500}
+  .kicker.mark{background:var(--mark);color:var(--mark-ink)}
+
+  footer{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:space-between;align-items:center;
+         padding:.85rem clamp(1.2rem,3vw,2.2rem);font-family:var(--mono);font-size:.7rem;color:var(--mute);pointer-events:none}
+  .nav{position:fixed;inset:auto 0 0 0;height:3px;background:var(--rule)}
+  .nav i{display:block;height:100%;background:var(--pen);transition:width .25s ease}
+
+  @media print{.slide{display:flex!important;position:relative;page-break-after:always;height:100vh}footer,.nav{display:none}}
+
+  @media (max-width:820px){
+    html,body{height:auto}
+    body{overflow-y:auto;overflow-x:hidden}
+    .slide{position:relative;inset:auto;min-height:100svh;justify-content:flex-start;padding:2.2rem 1.25rem 4.5rem}
+    .slide.on{display:flex}
+    h2,h2.wide{max-width:none}
+    .lede,ul,.kicker,.days{max-width:none}
+    .moves{grid-template-columns:1fr}
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .day{grid-template-columns:1fr;gap:.2rem}
+  }
+</style>
+</head>
+<body>
+
+<!-- 1 -->
+<section class="slide on" data-t="0:00">
+  <div class="eyebrow">A talk for students</div>
+  <h1>After the Checklist</h1>
+  <p class="lede" style="margin-top:1.8rem">You got very good at a game that is about to stop being played. Here is what the next one asks for.</p>
+  <p class="lede" style="margin-top:2.2rem;color:var(--mute);font-size:1rem">Michael Vanderpool &middot; Defiance College</p>
+</section>
+
+<!-- 2 -->
+<section class="slide" data-t="0:02">
+  <div class="eyebrow">Start here</div>
+  <h2 class="wide">You are good at school. That is a real skill.</h2>
+  <p class="lede">Twelve years of: here are the boxes, check them all, hand it in Friday.</p>
+  <p class="lede"><b>You mastered that.</b> Most people did not.</p>
+</section>
+
+<!-- 3 -->
+<section class="slide" data-t="0:04">
+  <div class="eyebrow">The shift nobody announces</div>
+  <p class="big">Then someone hands you<br>an outcome instead.</p>
+  <div class="rule-line"></div>
+  <p class="lede">Build the thing. Fix the problem. Present Thursday.</p>
+  <p class="lede">Nobody writes the steps down, because nobody has them. <b>Figuring out the steps is the job now.</b></p>
+</section>
+
+<!-- 4 -->
+<section class="slide" data-t="0:07">
+  <div class="eyebrow">What the people hiring actually say</div>
+  <h2 class="wide">This is not a vibe. These are 2026 surveys.</h2>
+  <div class="stats">
+    <div class="st">
+      <div class="fig">31<i>%</i></div>
+      <p>of business leaders say entry-level workers are <b>hardly or completely unprepared</b></p>
+    </div>
+    <div class="st">
+      <div class="fig">56<i>%</i></div>
+      <p>blame <b>soft skills</b> &mdash; not technical ability</p>
+    </div>
+    <div class="st">
+      <div class="fig">78<i>%</i></div>
+      <p>expect you to <b>build those skills yourself</b></p>
+    </div>
+    <div class="st flag">
+      <div class="fig">29<i>%</i></div>
+      <p>would <b>avoid hiring juniors altogether</b></p>
+    </div>
+  </div>
+  <p class="src">General Assembly, 2026 &mdash; 651 business leaders and 2,361 working adults, US and UK</p>
+</section>
+
+<!-- 5 -->
+<section class="slide" data-t="0:10">
+  <div class="eyebrow">The number that matters</div>
+  <p class="big">78% expect you to teach<br>yourself the thing<br>they are judging you on.</p>
+  <div class="rule-line"></div>
+  <p class="lede">Only 62% of employees think that is fair.</p>
+  <p class="lede"><b>The employers are the ones hiring.</b></p>
+</section>
+
+<!-- 6 -->
+<section class="slide" data-t="0:13">
+  <div class="eyebrow">To be fair &mdash; it cuts both ways</div>
+  <h2 class="wide">The bar moved and nobody updated the syllabus</h2>
+  <ul>
+    <li><b>77% of recent graduates</b> say employers expect more experience than entry level should reasonably require <small>Up from 48% a year earlier.</small></li>
+    <li><b>72% of employers</b> admit the pace of change has made it hard for colleges to keep readiness programs current</li>
+  </ul>
+  <div class="kicker">Not your fault. <b>Still your problem.</b> The useful response is to arrive already carrying what nobody is going to teach you.</div>
+  <p class="src">Cengage Group 2026 Employability Report &mdash; 931 hiring managers, 759 instructors, 1,100 recent graduates</p>
+</section>
+
+<!-- 7 -->
+<section class="slide" data-t="0:16">
+  <div class="eyebrow">What they screen for</div>
+  <h2 class="wide">Communication appears in 34% of all job postings</h2>
+  <p class="lede">More than any technical skill. More than any software you could list.</p>
+  <p class="lede">And of employed graduates who did an internship, <b>81% say that is what got them the job</b> &mdash; because it is proof you can <em>operate</em>, not just complete.</p>
+</section>
+
+<!-- 8 -->
+<section class="slide" data-t="0:20">
+  <div class="eyebrow">Part one</div>
+  <p class="big">Organize the work.</p>
+  <div class="rule-line"></div>
+  <p class="lede">Not productivity theater. Four habits that mean future-you can find things and pick up where you left off.</p>
+</section>
+
+<!-- 9 -->
+<section class="slide" data-t="0:22">
+  <div class="eyebrow">Organize the work</div>
+  <h2 class="wide">Four moves</h2>
+  <div class="moves">
+    <div class="mv">
+      <div class="h">Break it down first</div>
+      <div class="d">Before touching the work, write five to ten ugly lines of steps.</div>
+      <div class="w">Most procrastination is not knowing the first move</div>
+    </div>
+    <div class="mv">
+      <div class="h">Name files findably</div>
+      <div class="d"><code>project_what-it-is_v2</code>, not <code>image9990.png</code>. Dates as <code>2026-10-02</code>.</div>
+      <div class="w">"I did it, I just can't find it" reads as not done</div>
+    </div>
+    <div class="mv">
+      <div class="h">Decide where it lives</div>
+      <div class="d">One cloud folder per class. Keep what you were <em>given</em> separate from what you <em>made</em>.</div>
+      <div class="w">That one split prevents the worst disaster</div>
+    </div>
+    <div class="mv">
+      <div class="h">Lead with what the link is</div>
+      <div class="d">Never paste a bare URL. Say what it goes to, then link it.</div>
+      <div class="w">An unlabeled link gets skipped</div>
+    </div>
+  </div>
+</section>
+
+<!-- 10 -->
+<section class="slide" data-t="0:28">
+  <div class="eyebrow">Part two</div>
+  <p class="big">Organize the time.</p>
+  <div class="rule-line"></div>
+  <p class="lede">A calendar is not a record of what happened to you. <b>It is where you decide in advance what gets to happen.</b></p>
+</section>
+
+<!-- 11 -->
+<section class="slide" data-t="0:30">
+  <div class="eyebrow">Organize the time</div>
+  <h2 class="wide">Four moves</h2>
+  <div class="moves">
+    <div class="mv">
+      <div class="h">Every due date, day one</div>
+      <div class="d">Syllabus week: every deadline from every class, one sitting.</div>
+      <div class="w">So you find the November collision in August</div>
+    </div>
+    <div class="mv">
+      <div class="h">Book the work, not the deadline</div>
+      <div class="d">Two or three named working blocks <em>before</em> the due date.</div>
+      <div class="w">Unbooked time goes to whoever asks first</div>
+    </div>
+    <div class="mv">
+      <div class="h">Work backwards</div>
+      <div class="d">Due the 20th? Draft the 15th, feedback the 17th, revise the 18th.</div>
+      <div class="w">One scary date becomes four manageable ones</div>
+    </div>
+    <div class="mv">
+      <div class="h">Protect one block</div>
+      <div class="d">Two hours a week, same time, never moved. Catch-up only.</div>
+      <div class="w">Everyone falls behind. Few have somewhere to recover</div>
+    </div>
+  </div>
+</section>
+
+<!-- 12 -->
+<section class="slide" data-t="0:36">
+  <div class="eyebrow">What that looks like</div>
+  <h2 class="wide">A week that was decided in advance</h2>
+  <div class="week">
+    <table>
+      <thead><tr><th>Time</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th></tr></thead>
+      <tbody>
+        <tr><td class="t">9&ndash;11</td><td>Class</td><td><b>Project A</b></td><td>Class</td><td><b>Project A</b></td><td>Class</td></tr>
+        <tr><td class="t">12&ndash;2</td><td>Class</td><td>Work</td><td>Class</td><td>Work</td><td><b>Catch-up</b></td></tr>
+        <tr><td class="t">3&ndash;5</td><td><b>Reading</b></td><td>Work</td><td><b>Project B</b></td><td>Work</td><td>&mdash;</td></tr>
+        <tr><td class="t">7&ndash;9</td><td>&mdash;</td><td><b>Project B</b></td><td>&mdash;</td><td><b>Draft due 15th</b></td><td>&mdash;</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="kicker">The blue blocks are the point. Class and work were never the problem &mdash; <b>the problem is the hours between them that nobody claimed.</b></div>
+</section>
+
+<!-- 13 -->
+<section class="slide" data-t="0:40">
+  <div class="eyebrow">Part three</div>
+  <p class="big">Showing up.</p>
+  <div class="rule-line"></div>
+  <p class="lede">Attendance was the measure for twelve years. <b>It is about to stop being the measure.</b> Here is what replaces it.</p>
+</section>
+
+<!-- 14 -->
+<section class="slide" data-t="0:42">
+  <div class="eyebrow">Showing up &middot; being reachable</div>
+  <h2 class="wide">Three moves</h2>
+  <ul>
+    <li><b>Be findable.</b> Reply within one working day. No answer yet? Say that, and say when. <small>Silence reads as "not doing it." People cannot tell stuck from gone.</small></li>
+    <li><b>Ask on day one, not the night before.</b> The moment it is assigned, ask what finished looks like. <small>Day one it makes you look engaged. At 10pm the night before, the same question makes you look like you just opened it.</small></li>
+    <li><b>Make a move before you ask.</b> "I tried X, it did Y, I think the issue is Z &mdash; am I close?" <small>"It doesn't work" makes someone else do your thinking.</small></li>
+  </ul>
+</section>
+
+<!-- 15 -->
+<section class="slide" data-t="0:47">
+  <div class="eyebrow">Showing up &middot; when it goes wrong</div>
+  <h2 class="wide">Three more</h2>
+  <ul>
+    <li><b>Own the miss out loud.</b> Three sentences, <em>before</em> the deadline: what happened, what you are doing, when it lands. <small>Everyone misses something. What people remember is whether they heard it from you or had to come looking.</small></li>
+    <li><b>Bring the work, not the apology.</b> Turn up with something on screen &mdash; a draft, a sketch, a broken version. <small>A rough draft moves a project. A polished explanation of why there is no draft moves nothing.</small></li>
+    <li><b>Be able to say what you did.</b> The ninety-second version: what it is, why those choices, what you would change. <small>Work you cannot explain gets credited to someone who can.</small></li>
+  </ul>
+</section>
+
+<!-- 16 -->
+<section class="slide" data-t="0:52">
+  <div class="eyebrow">The whole thing in one line</div>
+  <p class="big">Accountability is<br>being predictable.</p>
+  <div class="rule-line"></div>
+  <p class="lede">Not perfect. Not never missing.</p>
+  <p class="lede">They know you will reply. They know you will flag it if it slips. They know that when you show up, <b>there will be something to look at.</b></p>
+  <div class="kicker mark">That is rarer than it sounds. Which is exactly why it is worth being.</div>
+</section>
+
+<!-- 17 -->
+<section class="slide" data-t="0:55">
+  <div class="eyebrow">Start this week</div>
+  <h2 class="wide">One thing a day. Each under an hour.</h2>
+  <div class="days">
+    <div class="day"><div class="d">Monday</div><p class="k">Every deadline into one calendar<span>Every syllabus, one sitting. Note the weeks where two collide.</span></p></div>
+    <div class="day"><div class="d">Tuesday</div><p class="k">Book your working blocks<span>Two named blocks each for your two biggest projects.</span></p></div>
+    <div class="day"><div class="d">Wednesday</div><p class="k">Fix one folder<span>Messiest class. Cloud, given separate from made, files renamed.</span></p></div>
+    <div class="day"><div class="d">Thursday</div><p class="k">Ask one question early<span>Whatever was assigned last — ask it now, not later.</span></p></div>
+    <div class="day"><div class="d">Friday</div><p class="k">Claim your catch-up block<span>The two hours you protect from here on. Make it recurring.</span></p></div>
+  </div>
+</section>
+
+<!-- 18 -->
+<section class="slide" data-t="0:58">
+  <div class="eyebrow">Take it with you</div>
+  <h2 class="wide">All of this, as one page you can keep</h2>
+  <p class="lede">Every move here, with the reasoning, in a format you can print or pin.</p>
+  <p class="lede" style="margin-top:1.4rem;font-family:var(--mono);font-size:1rem;color:var(--pen)">vanderpoolteacher.github.io/CREATE</p>
+  <div class="kicker">You mastered the game you were given. <b>This one has different rules, and now you know them.</b></div>
+</section>
+
+<footer><span id="tm"></span><span id="ct"></span></footer>
+<div class="nav"><i id="bar"></i></div>
+<script>
+(function(){
+  var s=[].slice.call(document.querySelectorAll('.slide')),i=0,n=s.length;
+  var ct=document.getElementById('ct'),tm=document.getElementById('tm'),bar=document.getElementById('bar');
+  function show(k){
+    i=Math.max(0,Math.min(n-1,k));
+    s.forEach(function(el,j){el.classList.toggle('on',j===i)});
+    ct.textContent=String(i+1).padStart(2,'0')+' / '+n;
+    tm.textContent=s[i].dataset.t||'';
+    bar.style.width=((i+1)/n*100)+'%';
+  }
+  document.addEventListener('keydown',function(e){
+    if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' '){e.preventDefault();show(i+1)}
+    else if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();show(i-1)}
+    else if(e.key==='Home')show(0);
+    else if(e.key==='End')show(n-1);
+  });
+  document.addEventListener('click',function(){ show(i+1) });
+  show(0);
+})();
+</script>
+</body>
+</html>

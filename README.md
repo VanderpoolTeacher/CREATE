@@ -20,6 +20,7 @@ A polished, interactive hub: the six skills as expandable cards, the competency 
 | **Understand the whole argument fast** | [The six skills](#the-six-skill-clusters) below, then [`toolkit/durable-skills-framework.md`](toolkit/durable-skills-framework.md) (one page) |
 | **Grade these skills on work you already assign** | [`toolkit/rubrics.md`](toolkit/rubrics.md) |
 | **Give the talk yourself** | [`presentation/outline.md`](presentation/outline.md) + open [`talk.html`](talk.html) in a browser |
+| **Give it *to students* instead** | open [`student-talk.html`](student-talk.html) — the same argument, rewritten for the people it is about |
 | **Run a full, dedicated unit** | [`curriculum/`](curriculum/README.md) — five turnkey lesson plans |
 | **Just browse it all, nicely formatted** | the [interactive site](https://vanderpoolteacher.github.io/CREATE/) |
 
@@ -34,6 +35,7 @@ CREATE/
 ├── presentation/       ← the talk: slide-by-slide outline (speaker script is kept private)
 ├── index.html          ← the interactive hub (the live site)
 ├── talk.html           ← the talk as a reveal.js slide deck
+├── student-talk.html   ← the student-facing talk (18 slides, self-contained)
 ├── assets/             ← styles + content + behavior for the hub
 └── docs/superpowers/   ← the design spec and build plan behind this project
 ```
@@ -64,6 +66,8 @@ Five **turnkey, pick-up-and-teach units** — one for each durable skill. Each i
 
 - **[`outline.md`](presentation/outline.md)** — the slide-by-slide outline with speaker notes for all 28 slides, following the talk's arc from "the silence in the room" through the six cliffs to the toolkit hand-off. This is the public, shareable version.
 - **`talk.html`** *(repo root)* — the same talk as a [reveal.js slide deck](talk.html). Open it in any browser, present full-screen, and press **`S`** for speaker view (notes, timer, next-slide preview).
+
+- **`student-talk.html`** *(repo root)* — the [student-facing talk](student-talk.html). Same argument, addressed to students rather than about them: practical moves for organizing work and time, and what accountability actually means once attendance stops being the measure. Grounded in 2026 employer-survey data on entry-level readiness. 18 slides, self-contained, arrow keys or click to advance.
 - *Note:* the full word-for-word **speaker script** (with delivery cues and personal stories) is kept as a private working document and is intentionally **not** published in this repo.
 
 ### 4. The Interactive Hub — `index.html` + `assets/`
